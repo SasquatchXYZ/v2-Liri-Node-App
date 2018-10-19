@@ -9,7 +9,7 @@ let Spotify = require("node-spotify-api");
 let bandsintown = require("bandsintown")("codingbootcamp");
 let omdb = require("omdb");
 
-let optionsObject = [
+/*let optionsObject = [
     {
         type: "Concert",
         query: "concert-this",
@@ -25,7 +25,7 @@ let optionsObject = [
         query: "movie-this",
         question: "What movie should I find?"
     }
-]
+];*/
 
 inquirer
 .prompt([
@@ -103,7 +103,7 @@ function sortRequest(userChoice1) {
 
 
 
-function secondRequest(userChoice1, question) {
+function secondRequest(query, question) {
     inquirer
         .prompt([
             {
@@ -117,5 +117,13 @@ function secondRequest(userChoice1, question) {
             return user.request;
         });
 
+    console.log();
+
 }
 
+/*function sortQuery(query, parameter) {
+    console.log(query, )
+}*/
+
+/*
+function queryRandom()*/
