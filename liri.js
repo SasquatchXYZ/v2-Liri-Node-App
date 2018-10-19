@@ -2,12 +2,16 @@ require("dotenv").config();
 
 let keys = require("./keys");
 let fs = require("fs");
+let inquirer = require("inquirer");
 let request = require("request");
 let moment = require("moment");
-let inquirer = require("inquirer");
-let Spotify = require("node-spotify-api");
+
 let bandsintown = require("bandsintown")("codingbootcamp");
+let Spotify = require("node-spotify-api");
 let omdb = require("omdb");
+
+const bandsAPI = "codingbootcamp";
+let spotify = new Spotify(keys.spotify);
 
 /*let optionsObject = [
     {
@@ -122,6 +126,7 @@ function secondRequestSong() {
         ])
         .then(function (user) {
             console.log(user.songTitle);
+            querySpotify(user.songTitle);
         });
 
 }
@@ -137,6 +142,7 @@ function secondRequestMovie() {
         ])
         .then(function (user) {
             console.log(user.movieTitle);
+            queryOMDB(user.movieTitle);
         });
 
 }
@@ -167,9 +173,31 @@ function checkRandom() {
 }
 
 // Query API Functions =================================================================================================
-function queryBandsInTown(band) {
-    let request = band.split(" ").join("%20");
+function queryBandsInTown(userRequest) {
+    let band = userRequest.split(" ").join("%20");
+    let queryURL = `https://rest.bandsintown.com/artists/${band}/events?app_id=${bandsAPI}`;
 
+    request(queryURL, function(error, response, data) {
+        if (!error && response.statusCode === 200) {
+            let results = JSON.parse(data);
+            console.log(results);
+        }
+    })
+}
+
+function querySpotify(userRequest) {
+    spotify.search({type: 'track', query: `${userRequest}`, limit: 1}, function(error, data){
+        if (error) {
+            return console.log(`Error Occurred: ${error}`);
+        }
+        //console.log(data);
+        console.log(data.tracks.items[0]);
+    })
+}
+
+function queryOMDB(userRequest) {
+    let movie = userRequest.split(" ").join("+");
+    console.log(movie);
 }
 
 
