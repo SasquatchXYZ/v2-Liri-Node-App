@@ -1,0 +1,29 @@
+{
+  "name": "v2-Liri-Node-App",
+  "version": "1.0.0",
+  "description": "##### Homework Assignment 10 - Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SasquatchXYZ/v2-Liri-Node-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SasquatchXYZ/v2-Liri-Node-App/issues"
+  },
+  "homepage": "https://github.com/SasquatchXYZ/v2-Liri-Node-App#readme",
+  "dependencies": {
+    "bandsintown": "^1.0.1",
+    "dotenv": "^6.1.0",
+    "inquirer": "^6.2.0",
+    "moment": "^2.22.2",
+    "node-spotify-api": "^1.0.7",
+    "omdb": "^0.8.0",
+    "request": "^2.88.0"
+  }
+}
