@@ -105,8 +105,8 @@ function secondRequestConcert() {
             }
         ])
         .then(function (user) {
-            console.log(user);
             console.log(user.artist);
+            queryBandsInTown(user.artist);
         });
 
 }
@@ -121,7 +121,6 @@ function secondRequestSong() {
             }
         ])
         .then(function (user) {
-            console.log(user);
             console.log(user.songTitle);
         });
 
@@ -137,7 +136,6 @@ function secondRequestMovie() {
             }
         ])
         .then(function (user) {
-            console.log(user);
             console.log(user.movieTitle);
         });
 
@@ -169,7 +167,10 @@ function checkRandom() {
 }
 
 // Query API Functions =================================================================================================
+function queryBandsInTown(band) {
+    let request = band.split(" ").join("%20");
 
+}
 
 
 /*function sortQuery(query, parameter) {
