@@ -37,16 +37,14 @@ inquirer
     }
 ])
 .then(function(user) {
-    let userChoice1 = user.userRequest;
-    sortRequest(userChoice1);
+    let userChoice = user.userRequest;
+    sortRequest(userChoice);
 });
 
-function sortRequest(userChoice1) {
-    switch (userChoice1) {
+function sortRequest(userChoice) {
+    switch (userChoice) {
         case "Concert":
-            let query = "concert-this";
-            let question = "Who would you like to see?";
-            secondRequest(query, question);
+            secondRequestConcert();
             /*        inquirer
                             .prompt([
                                 {
@@ -61,9 +59,7 @@ function sortRequest(userChoice1) {
                             });*/
             break;
         case "Song":
-            let query2 = "spotify-this-song";
-            let question2 = "What song shall I find?";
-            secondRequest(query2, question2);
+            secondRequestSong();
             /* inquirer
                  .prompt([
                      {
@@ -78,9 +74,7 @@ function sortRequest(userChoice1) {
                  });*/
             break;
         case "Movie":
-            let query3 = "movie-this";
-            let question3 = "What movie should I find?";
-            secondRequest(query3, question3);
+            secondRequestMovie();
             /* inquirer
                  .prompt([
                      {
@@ -95,31 +89,88 @@ function sortRequest(userChoice1) {
                  });*/
             break;
         case "You Pick LIRI":
-            console.log("random");
+            checkRandom();
             break;
     }
 }
 
-
-
-
-function secondRequest(query, question) {
+// Secondary Question Functions ========================================================================================
+function secondRequestConcert() {
     inquirer
         .prompt([
             {
                 type: 'input',
-                name: 'request',
-                message: `${question}`,
+                name: 'artist',
+                message: 'Who would you like to see?'
             }
         ])
         .then(function (user) {
-            console.log(user.request);
-            return user.request;
+            console.log(user);
+            console.log(user.artist);
         });
 
-    console.log();
+}
+
+function secondRequestSong() {
+    inquirer
+        .prompt([
+            {
+                type: 'input',
+                name: 'songTitle',
+                message: 'What song shall I find?',
+            }
+        ])
+        .then(function (user) {
+            console.log(user);
+            console.log(user.songTitle);
+        });
 
 }
+
+function secondRequestMovie() {
+    inquirer
+        .prompt([
+            {
+                type: 'input',
+                name: 'movieTitle',
+                message: 'What movie should I find?'
+            }
+        ])
+        .then(function (user) {
+            console.log(user);
+            console.log(user.movieTitle);
+        });
+
+}
+// LIRI's Choice Functions =============================================================================================
+function checkRandom() {
+    fs.readFile("random.txt", "utf8", function(error, data) {
+        if (error) {
+            return console.log(error);
+        }
+        let text = data.replace(/"/g, "");
+        /*console.log(data.split(",").join(" "));*/
+        let randomArray = text.split(",");
+        console.log(randomArray);
+        let command = randomArray[0];
+        let parameter = randomArray[1];
+        let concertCommandsArray = ["concert-this", "concert", "band"];
+        let songCommandsArray = ["spotify-this-song", "song"];
+        let movieCommandsArray = ["movie-this", "movie", "film", "documentary"];
+
+        if (concertCommandsArray.includes(command)) {
+            sortRequest("Concert");
+        } else if (songCommandsArray.includes(command)) {
+            sortRequest("Song");
+        } else if (movieCommandsArray.includes(command)) {
+            sortRequest("Movie")
+        }
+    })
+}
+
+// Query API Functions =================================================================================================
+
+
 
 /*function sortQuery(query, parameter) {
     console.log(query, )
