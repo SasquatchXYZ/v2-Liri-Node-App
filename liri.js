@@ -10,8 +10,9 @@ let bandsintown = require("bandsintown")("codingbootcamp");
 let Spotify = require("node-spotify-api");
 let omdb = require("omdb");
 
-const bandsAPI = "codingbootcamp";
+const bandsAPIkey = "codingbootcamp";
 let spotify = new Spotify(keys.spotify);
+const omdbAPIkey = "trilogy";
 
 /*let optionsObject = [
     {
@@ -175,7 +176,7 @@ function checkRandom() {
 // Query API Functions =================================================================================================
 function queryBandsInTown(userRequest) {
     let band = userRequest.split(" ").join("%20");
-    let queryURL = `https://rest.bandsintown.com/artists/${band}/events?app_id=${bandsAPI}`;
+    let queryURL = `https://rest.bandsintown.com/artists/${band}/events?app_id=${bandsAPIkey}`;
 
     request(queryURL, function(error, response, data) {
         if (!error && response.statusCode === 200) {
@@ -197,7 +198,15 @@ function querySpotify(userRequest) {
 
 function queryOMDB(userRequest) {
     let movie = userRequest.split(" ").join("+");
-    console.log(movie);
+    let queryURL = `http://www.omdbapi.com/?t=${movie}&y=&plot=short&apikey=${omdbAPIkey}`;
+
+
+    request(queryURL, function(error, response, data) {
+        if (!error && response.statusCode === 200) {
+            let results = JSON.parse(data);
+            console.log(results);
+        }
+    })
 }
 
 
