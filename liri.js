@@ -163,13 +163,26 @@ function checkRandom() {
         let songCommandsArray = ["spotify-this-song", "song"];
         let movieCommandsArray = ["movie-this", "movie", "film", "documentary"];
 
-        if (concertCommandsArray.includes(command)) {
-            sortRequest("Concert");
-        } else if (songCommandsArray.includes(command)) {
-            sortRequest("Song");
-        } else if (movieCommandsArray.includes(command)) {
-            sortRequest("Movie")
+        if (randomArray.length === 1) {
+            if (concertCommandsArray.includes(command)) {
+                sortRequest("Concert");
+            } else if (songCommandsArray.includes(command)) {
+                sortRequest("Song");
+            } else if (movieCommandsArray.includes(command)) {
+                sortRequest("Movie");
+            }
+        } else if (randomArray.length === 2) {
+            if (concertCommandsArray.includes(command)) {
+                queryBandsInTown(parameter);
+            } else if (songCommandsArray.includes(command)) {
+                querySpotify(parameter);
+            } else if (movieCommandsArray.includes(command)) {
+                queryOMDB(parameter);
+            }
+        } else {
+            console.log("There is something wrong with your random.txt...")
         }
+
     })
 }
 
@@ -180,8 +193,18 @@ function queryBandsInTown(userRequest) {
 
     request(queryURL, function(error, response, data) {
         if (!error && response.statusCode === 200) {
+            //console.log(data.length);
             let results = JSON.parse(data);
-            console.log(results);
+            for (var n = 0; n < results.length; n++) {
+                let concerts = {};
+                concerts.venue = results[n].venue.name;
+                concerts.location = `${results[n].venue.city} ${results[n].venue.region}, ${results[n].venue.country}`;
+                concerts.date = moment(results[n].datetime).format("MM/DD/YYYY");
+                console.log("===========================================================");
+                console.log(concerts);
+
+
+            }
         }
     })
 }
