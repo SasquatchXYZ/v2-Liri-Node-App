@@ -162,9 +162,9 @@ function checkRandom() {
         /*console.log(data.split(",").join(" "));*/
         let randomArray = text.split(",");
         console.log(randomArray);
-        let command = randomArray[0];
+        let command = randomArray[0].trim();
         console.log(command);
-        let parameter = randomArray[1];
+        let parameter = randomArray[1].trim();
         console.log(parameter);
         let concertCommandsArray = ["concert-this", "concert", "band", "artist"];
         let songCommandsArray = ["spotify-this-song", "song", "track"];

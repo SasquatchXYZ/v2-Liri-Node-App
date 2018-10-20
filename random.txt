@@ -1,1 +1,1 @@
-band
+artist, panic at the disco
