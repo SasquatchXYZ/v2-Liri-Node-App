@@ -33,18 +33,18 @@ const omdbAPIkey = "trilogy";
 ];*/
 
 inquirer
-.prompt([
-    {
-        type: 'list',
-        name: 'userRequest',
-        message: 'What Can I Help You Find?',
-        choices: ["Concert", "Song", "Movie", "You Pick LIRI"]
-    }
-])
-.then(function(user) {
-    let userChoice = user.userRequest;
-    sortRequest(userChoice);
-});
+    .prompt([
+        {
+            type: 'list',
+            name: 'userRequest',
+            message: 'What Can I Help You Find?',
+            choices: ["Concert", "Song", "Movie", "You Pick LIRI"]
+        }
+    ])
+    .then(function (user) {
+        let userChoice = user.userRequest;
+        sortRequest(userChoice);
+    });
 
 function sortRequest(userChoice) {
     switch (userChoice) {
@@ -95,6 +95,7 @@ function sortRequest(userChoice) {
             break;
         case "You Pick LIRI":
             checkRandom();
+            appendLog("Dealer's Choice");
             break;
     }
 }
@@ -112,6 +113,7 @@ function secondRequestConcert() {
         .then(function (user) {
             console.log(user.artist);
             queryBandsInTown(user.artist);
+            appendLog(`Band: ${user.artist}`);
         });
 
 }
@@ -128,6 +130,7 @@ function secondRequestSong() {
         .then(function (user) {
             console.log(user.songTitle);
             querySpotify(user.songTitle);
+            appendLog(`Song: ${user.songTitle}`);
         });
 
 }
@@ -144,12 +147,14 @@ function secondRequestMovie() {
         .then(function (user) {
             console.log(user.movieTitle);
             queryOMDB(user.movieTitle);
+            appendLog(`Movie: ${user.movieTitle}`);
         });
 
 }
+
 // LIRI's Choice Functions =============================================================================================
 function checkRandom() {
-    fs.readFile("random.txt", "utf8", function(error, data) {
+    fs.readFile("random.txt", "utf8", function (error, data) {
         if (error) {
             return console.log(error);
         }
@@ -158,10 +163,14 @@ function checkRandom() {
         let randomArray = text.split(",");
         console.log(randomArray);
         let command = randomArray[0];
+        console.log(command);
         let parameter = randomArray[1];
-        let concertCommandsArray = ["concert-this", "concert", "band"];
+        console.log(parameter);
+        let concertCommandsArray = ["concert-this", "concert", "band", "artist"];
         let songCommandsArray = ["spotify-this-song", "song", "track"];
         let movieCommandsArray = ["movie-this", "movie", "film", "documentary"];
+
+        appendLog(`random.txt says: "${randomArray}"`);
 
         if (randomArray.length === 1) {
             if (concertCommandsArray.includes(command)) {
@@ -171,8 +180,9 @@ function checkRandom() {
             } else if (movieCommandsArray.includes(command)) {
                 sortRequest("Movie");
             } else {
-                //console.log("Check your random.txt, something's missing...");
-                console.log("Uh, we had a slight weapons malfunction, but uh... everything's perfectly all right now. We're fine. We're all fine here now, thank you. How are you?")
+                console.log("Check your random.txt, something's missing...");
+                //console.log("Uh, we had a slight weapons malfunction, but uh... everything's perfectly all right now. We're fine. We're all fine here now, thank you. How are you?");
+                appendLog("Uh, we had a slight weapons malfunction, but uh... everything's perfectly all right now. We're fine. We're all fine here now, thank you. How are you?");
             }
         } else if (randomArray.length === 2) {
             if (concertCommandsArray.includes(command)) {
@@ -191,27 +201,32 @@ function queryBandsInTown(userRequest) {
     let band = userRequest.split(" ").join("%20");
     let queryURL = `https://rest.bandsintown.com/artists/${band}/events?app_id=${bandsAPIkey}`;
 
-    request(queryURL, function(error, response, data) {
+    request(queryURL, function (error, response, data) {
         if (!error && response.statusCode === 200) {
-            //console.log(data.length);
-            let results = JSON.parse(data);
-            for (let n = 0; n < results.length; n++) {
-                let concerts = {};
-                concerts.venue = results[n].venue.name;
-                concerts.location = `${results[n].venue.city} ${results[n].venue.region}, ${results[n].venue.country}`;
-                concerts.date = moment(results[n].datetime).format("MM/DD/YYYY");
+            if (data.length === 3) {
+                console.log("There are no upcoming shows for this artist.");
+                appendLog("There are no upcoming shows for this artist.");
+            } else {
+                console.log(data.length);
+                let results = JSON.parse(data);
+                for (let n = 0; n < results.length; n++) {
+                    let concerts = {};
+                    concerts.venue = results[n].venue.name;
+                    concerts.location = `${results[n].venue.city} ${results[n].venue.region}, ${results[n].venue.country}`;
+                    concerts.date = moment(results[n].datetime).format("MM/DD/YYYY");
 
-                console.log("===========================================================");
-                console.log(concerts);
+                    console.log("===========================================================");
+                    console.log(concerts);
 
-
+                    appendLog(JSON.stringify(concerts));
+                }
             }
         }
     })
 }
 
 function querySpotify(userRequest) {
-    spotify.search({type: 'track', query: `${userRequest}`, limit: 5}, function(error, data){
+    spotify.search({type: 'track', query: `${userRequest}`, limit: 5}, function (error, data) {
         if (error) {
             return console.log(`Error Occurred: ${error}`);
         }
@@ -227,6 +242,7 @@ function querySpotify(userRequest) {
             console.log("===========================================================");
             console.log(track);
 
+            appendLog(JSON.stringify(track));
         }
     })
 }
@@ -236,7 +252,7 @@ function queryOMDB(userRequest) {
     let queryURL = `http://www.omdbapi.com/?t=${movie}&y=&plot=short&apikey=${omdbAPIkey}`;
 
 
-    request(queryURL, function(error, response, data) {
+    request(queryURL, function (error, response, data) {
         if (!error && response.statusCode === 200) {
             let results = JSON.parse(data);
 
@@ -253,14 +269,14 @@ function queryOMDB(userRequest) {
 
             console.log(movieObject);
 
+            appendLog(JSON.stringify(movieObject));
         }
     })
 }
 
-
-/*function sortQuery(query, parameter) {
-    console.log(query, )
-}*/
-
-/*
-function queryRandom()*/
+// Log Function to Append to random.txt ================================================================================
+function appendLog(data) {
+    let stream = fs.createWriteStream('./log.txt', {flags: 'a'});
+    stream.write(`${data}\r`);
+    stream.end();
+}
