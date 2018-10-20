@@ -160,7 +160,7 @@ function checkRandom() {
         let command = randomArray[0];
         let parameter = randomArray[1];
         let concertCommandsArray = ["concert-this", "concert", "band"];
-        let songCommandsArray = ["spotify-this-song", "song"];
+        let songCommandsArray = ["spotify-this-song", "song", "track"];
         let movieCommandsArray = ["movie-this", "movie", "film", "documentary"];
 
         if (randomArray.length === 1) {
@@ -170,6 +170,9 @@ function checkRandom() {
                 sortRequest("Song");
             } else if (movieCommandsArray.includes(command)) {
                 sortRequest("Movie");
+            } else {
+                //console.log("Check your random.txt, something's missing...");
+                console.log("Uh, we had a slight weapons malfunction, but uh... everything's perfectly all right now. We're fine. We're all fine here now, thank you. How are you?")
             }
         } else if (randomArray.length === 2) {
             if (concertCommandsArray.includes(command)) {
@@ -179,10 +182,7 @@ function checkRandom() {
             } else if (movieCommandsArray.includes(command)) {
                 queryOMDB(parameter);
             }
-        } else {
-            console.log("There is something wrong with your random.txt...")
         }
-
     })
 }
 
@@ -228,8 +228,6 @@ function querySpotify(userRequest) {
             console.log(track);
 
         }
-
-
     })
 }
 
@@ -241,7 +239,20 @@ function queryOMDB(userRequest) {
     request(queryURL, function(error, response, data) {
         if (!error && response.statusCode === 200) {
             let results = JSON.parse(data);
-            console.log(results);
+
+            let movieObject = {};
+            movieObject.title = results.Title;
+            movieObject.releaseYear = results.Year;
+            movieObject.rated = results.Rated;
+            movieObject.imdbRating = results.Ratings[0].Value;
+            movieObject.rottenTomatoesRating = results.Ratings[1].Value;
+            movieObject.country = results.Country;
+            movieObject.language = results.Language;
+            movieObject.plot = results.Plot;
+            movieObject.actors = results.Actors;
+
+            console.log(movieObject);
+
         }
     })
 }
