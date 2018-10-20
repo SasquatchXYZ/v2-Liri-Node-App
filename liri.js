@@ -195,11 +195,12 @@ function queryBandsInTown(userRequest) {
         if (!error && response.statusCode === 200) {
             //console.log(data.length);
             let results = JSON.parse(data);
-            for (var n = 0; n < results.length; n++) {
+            for (let n = 0; n < results.length; n++) {
                 let concerts = {};
                 concerts.venue = results[n].venue.name;
                 concerts.location = `${results[n].venue.city} ${results[n].venue.region}, ${results[n].venue.country}`;
                 concerts.date = moment(results[n].datetime).format("MM/DD/YYYY");
+
                 console.log("===========================================================");
                 console.log(concerts);
 
@@ -210,12 +211,25 @@ function queryBandsInTown(userRequest) {
 }
 
 function querySpotify(userRequest) {
-    spotify.search({type: 'track', query: `${userRequest}`, limit: 1}, function(error, data){
+    spotify.search({type: 'track', query: `${userRequest}`, limit: 5}, function(error, data){
         if (error) {
             return console.log(`Error Occurred: ${error}`);
         }
-        //console.log(data);
-        console.log(data.tracks.items[0]);
+        //console.log(data.tracks.items);
+        let songsArray = data.tracks.items;
+        for (let y = 0; y < songsArray.length; y++) {
+            let track = {};
+            track.artist = songsArray[y].artists[0].name;
+            track.song = songsArray[y].name;
+            track.album = songsArray[y].album.name;
+            track.preview = songsArray[y].preview_url;
+
+            console.log("===========================================================");
+            console.log(track);
+
+        }
+
+
     })
 }
 
