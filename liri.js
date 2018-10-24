@@ -1,36 +1,18 @@
 require("dotenv").config();
 
-let keys = require("./keys");
-let fs = require("fs");
-let inquirer = require("inquirer");
-let request = require("request");
-let moment = require("moment");
+const keys = require("./keys");
+const fs = require("fs");
+const inquirer = require("inquirer");
+const request = require("request");
+const moment = require("moment");
 
-let bandsintown = require("bandsintown")("codingbootcamp");
-let Spotify = require("node-spotify-api");
-let omdb = require("omdb");
+const bandsintown = require("bandsintown")("codingbootcamp");
+const Spotify = require("node-spotify-api");
+const omdb = require("omdb");
 
 const bandsAPIkey = "codingbootcamp";
-let spotify = new Spotify(keys.spotify);
+const spotify = new Spotify(keys.spotify);
 const omdbAPIkey = "trilogy";
-
-/*let optionsObject = [
-    {
-        type: "Concert",
-        query: "concert-this",
-        question: "Who would you like to see?"
-    },
-    {
-        type: "Song",
-        query: "spotify-song-this",
-        question: "What is the name of the song?"
-    },
-    {
-        type: "Movie",
-        query: "movie-this",
-        question: "What movie should I find?"
-    }
-];*/
 
 inquirer
     .prompt([
@@ -50,48 +32,12 @@ function sortRequest(userChoice) {
     switch (userChoice) {
         case "Concert":
             secondRequestConcert();
-            /*        inquirer
-                            .prompt([
-                                {
-                                    type: 'input',
-                                    name: 'bandRequest',
-                                    message: 'Who Would You Like to See?',
-                                }
-                            ])
-                            .then(function(user) {
-                                let request = user.bandRequest;
-                                console.log(request);
-                            });*/
             break;
         case "Song":
             secondRequestSong();
-            /* inquirer
-                 .prompt([
-                     {
-                         type: 'input',
-                         name: 'songRequest',
-                         message: 'What Song?',
-                     }
-                 ])
-                 .then(function(user) {
-                     let request = user.songRequest;
-                     console.log(request);
-                 });*/
             break;
         case "Movie":
             secondRequestMovie();
-            /* inquirer
-                 .prompt([
-                     {
-                         type: 'input',
-                         name: 'movieRequest',
-                         message: 'What Movie?',
-                     }
-                 ])
-                 .then(function(user) {
-                     let request = user.movieRequest;
-                     console.log(request);
-                 });*/
             break;
         case "You Pick LIRI":
             checkRandom();
