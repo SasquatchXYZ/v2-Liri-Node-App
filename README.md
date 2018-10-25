@@ -1,4 +1,4 @@
-# LIRI-Node-App
+# LIRI-Node-App-v2
 
 ##### Homework Assignment 10 - Node.js
 
