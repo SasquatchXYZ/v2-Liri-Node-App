@@ -9,6 +9,7 @@ const moment = require("moment");
 const bandsintown = require("bandsintown")("codingbootcamp");
 const Spotify = require("node-spotify-api");
 const omdb = require("omdb");
+const omdbAPI = require("omdb-client");
 
 const bandsAPIkey = "codingbootcamp";
 const spotify = new Spotify(keys.spotify);
@@ -194,7 +195,22 @@ function querySpotify(userRequest) {
 }
 
 function queryOMDB(userRequest) {
-    let movie = userRequest.split(" ").join("+");
+    let params = {
+        apiKey: omdbAPIkey,
+        title: userRequest
+    };
+    omdbAPI.get(params, function(error, movie) {
+        if (error) {
+            console.log(error);
+        }
+        if (!movie) {
+            console.log(`movie not found`)
+        }
+        console.log(movie);
+    })
+
+    
+    /*let movie = userRequest.split(" ").join("+");
     let queryURL = `http://www.omdbapi.com/?t=${movie}&y=&plot=short&apikey=${omdbAPIkey}`;
 
 
@@ -217,7 +233,7 @@ function queryOMDB(userRequest) {
 
             appendLog(JSON.stringify(movieObject));
         }
-    })
+    })*/
 }
 
 // Log Function to Append to random.txt ================================================================================

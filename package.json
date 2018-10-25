@@ -24,6 +24,7 @@
     "moment": "^2.22.2",
     "node-spotify-api": "^1.0.7",
     "omdb": "^0.8.0",
+    "omdb-client": "^2.0.0",
     "request": "^2.88.0"
   }
 }
