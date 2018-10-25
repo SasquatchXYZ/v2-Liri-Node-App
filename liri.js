@@ -8,7 +8,6 @@ const moment = require("moment");
 
 const bandsintown = require("bandsintown")("codingbootcamp");
 const Spotify = require("node-spotify-api");
-const omdb = require("omdb");
 const omdbAPI = require("omdb-client");
 
 const bandsAPIkey = "codingbootcamp";
@@ -114,8 +113,8 @@ function checkRandom() {
         let parameter = randomArray[1].trim();
         console.log(parameter);
         let concertCommandsArray = ["concert-this", "concert", "band", "artist"];
-        let songCommandsArray = ["spotify-this-song", "song", "track"];
-        let movieCommandsArray = ["movie-this", "movie", "film", "documentary"];
+        let songCommandsArray = ["spotify-this-song", "song", "track", "radio"];
+        let movieCommandsArray = ["movie-this", "movie", "film", "documentary", "picture", "motion picture"];
 
         appendLog(`random.txt says: "${randomArray}"`);
 
@@ -154,7 +153,7 @@ function queryBandsInTown(userRequest) {
                 console.log("There are no upcoming shows for this artist.");
                 appendLog("There are no upcoming shows for this artist.");
             } else {
-                console.log(data.length);
+                console.log(JSON.parse(data).length);
                 let results = JSON.parse(data);
                 for (let n = 0; n < results.length; n++) {
                     let concerts = {};
@@ -162,7 +161,7 @@ function queryBandsInTown(userRequest) {
                     concerts.location = `${results[n].venue.city} ${results[n].venue.region}, ${results[n].venue.country}`;
                     concerts.date = moment(results[n].datetime).format("MM/DD/YYYY");
 
-                    console.log("===========================================================");
+                    console.log("-----------------------------------------------------------");
                     console.log(concerts);
 
                     appendLog(JSON.stringify(concerts));
@@ -170,6 +169,25 @@ function queryBandsInTown(userRequest) {
             }
         }
     })
+
+    /*    bandsintown
+            .getArtistEventList(userRequest)
+            .then(function(events) {
+               console.log(events.length);
+               for (let n = 0; n < events.length; n++) {
+
+                   let shows = {};
+                   shows.title = events[n].title;
+                   shows.venue = events[n].venue.name;
+                   shows.date = events[n].formatted_datetime;
+                   shows.location = events[n].formatted_location;
+
+                   console.log("----------------------------------------------------------------------------");
+                   console.log(shows);
+
+                   appendLog(JSON.stringify(shows));
+               }
+            });*/
 }
 
 function querySpotify(userRequest) {
@@ -195,21 +213,37 @@ function querySpotify(userRequest) {
 }
 
 function queryOMDB(userRequest) {
+
     let params = {
         apiKey: omdbAPIkey,
+        plot: 'full',
         title: userRequest
     };
+
     omdbAPI.get(params, function(error, movie) {
         if (error) {
             console.log(error);
         }
-        if (!movie) {
-            console.log(`movie not found`)
-        }
-        console.log(movie);
+        // console.log(movie);
+
+        let movieData = {};
+        movieData.title = movie.Title;
+        movieData.released = movie.Released;
+        movieData.rated = movie.Rated;
+        movieData.imdbRating = movie.Ratings[0].Value;
+        movieData.rottenTomatoesRating = movie.Ratings[1].Value;
+        movieData.country = movie.Country;
+        movieData.language = movie.Language;
+        movieData.plot = movie.Plot;
+        movieData.actors = movie.Actors;
+        movieData.runtime = movie.Runtime;
+
+        console.log(movieData);
+
+        appendLog(JSON.stringify(movieData));
     })
 
-    
+
     /*let movie = userRequest.split(" ").join("+");
     let queryURL = `http://www.omdbapi.com/?t=${movie}&y=&plot=short&apikey=${omdbAPIkey}`;
 
