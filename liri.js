@@ -156,39 +156,40 @@ function queryBandsInTown(userRequest) {
             } else {
                 console.log(JSON.parse(data).length);
                 let results = JSON.parse(data);
-                for (let n = 0; n < results.length; n++) {
+                results.forEach(function (events) {
                     let concerts = {};
-                    concerts.venue = results[n].venue.name;
-                    concerts.location = `${results[n].venue.city} ${results[n].venue.region}, ${results[n].venue.country}`;
-                    concerts.date = moment(results[n].datetime).format("MM/DD/YYYY");
+                    concerts.venue = events.venue.name;
+                    concerts.location = `${events.venue.city} ${events.venue.region}, ${events.venue.country}`;
+                    concerts.date = moment(events.datetime).format("MM/DD/YYYY");
 
                     console.log("-----------------------------------------------------------");
                     console.log(concerts);
 
                     appendLog(JSON.stringify(concerts));
-                }
+
+                })
             }
         }
     })
 
-/*        bandsintown
-            .getArtistEventList(userRequest)
-            .then(function(events) {
-               console.log(events.length);
-               for (let n = 0; n < events.length; n++) {
+    /*        bandsintown
+                .getArtistEventList(userRequest)
+                .then(function(events) {
+                   console.log(events.length);
+                   events.forEach(function(show) {
 
-                   let shows = {};
-                   shows.title = events[n].title;
-                   shows.venue = events[n].venue.name;
-                   shows.date = events[n].formatted_datetime;
-                   shows.location = events[n].formatted_location;
+                       let concert = {};
+                       concert.title = show.title;
+                       concert.venue = show.venue.name;
+                       concert.date = show.formatted_datetime;
+                       concert.location = show.formatted_location;
 
-                   console.log("----------------------------------------------------------------------------");
-                   console.log(shows);
+                       console.log("----------------------------------------------------------------------------");
+                       console.log(concert);
 
-                   appendLog(JSON.stringify(shows));
-               }
-            });*/
+                       appendLog(JSON.stringify(concert));
+                   })
+                });*/
 }
 
 function querySpotify(userRequest) {
@@ -198,18 +199,18 @@ function querySpotify(userRequest) {
         }
         //console.log(data.tracks.items);
         let songsArray = data.tracks.items;
-        for (let y = 0; y < songsArray.length; y++) {
+        songsArray.forEach(function (song) {
             let track = {};
-            track.artist = songsArray[y].artists[0].name;
-            track.song = songsArray[y].name;
-            track.album = songsArray[y].album.name;
-            track.preview = songsArray[y].preview_url;
+            track.artist = song.artists[0].name;
+            track.song = song.name;
+            track.album = song.album.name;
+            track.preview = song.preview_url;
 
             console.log("===========================================================");
             console.log(track);
 
             appendLog(JSON.stringify(track));
-        }
+        })
     })
 }
 
@@ -221,7 +222,7 @@ function queryOMDB(userRequest) {
         title: userRequest
     };
 
-    omdbAPI.get(params, function(error, movie) {
+    omdbAPI.get(params, function (error, movie) {
         if (error) {
             console.log(error);
         }
@@ -243,7 +244,6 @@ function queryOMDB(userRequest) {
 
         appendLog(JSON.stringify(movieData));
     })
-
 
     /*let movie = userRequest.split(" ").join("+");
     let queryURL = `http://www.omdbapi.com/?t=${movie}&y=&plot=short&apikey=${omdbAPIkey}`;
