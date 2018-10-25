@@ -223,6 +223,6 @@ function queryOMDB(userRequest) {
 // Log Function to Append to random.txt ================================================================================
 function appendLog(data) {
     let stream = fs.createWriteStream('./log.txt', {flags: 'a'});
-    stream.write(`${data}\r`);
+    stream.write(`\n${data}\n`);
     stream.end();
 }

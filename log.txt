@@ -1,3 +1,186 @@
-Band: state champs{"venue":"The Academy, Middle Abbey Street","location":"Dublin , Ireland","date":"10/22/2018"}{"venue":"Northumbria Institute ","location":"Newcastle Upon Tyne , United Kingdom","date":"10/24/2018"}{"venue":"O2 ABC Glasgow","location":"Glasgow , United Kingdom","date":"10/23/2018"}{"venue":"Academy 1","location":"Manchester , United Kingdom","date":"10/26/2018"}{"venue":"UEA LCR Norwich","location":"Norwich , United Kingdom","date":"10/29/2018"}{"venue":"Roundhouse","location":"London , United Kingdom","date":"10/27/2018"}{"venue":"O2 Academy Leeds","location":"Leeds , United Kingdom","date":"10/30/2018"}{"venue":"O2 Academy Bristol","location":"Bristol , United Kingdom","date":"11/01/2018"}{"venue":"Muziekodroom","location":"Hasselt , Belgium","date":"11/03/2018"}{"venue":"O2 Institute","location":"Birmingham , United Kingdom","date":"10/31/2018"}{"venue":"Patronaat","location":"Haarlem , Netherlands","date":"11/04/2018"}{"venue":"BI NUU","location":"Berlin , Germany","date":"11/06/2018"}{"venue":"Knust","location":"Hamburg , Germany","date":"11/05/2018"}{"venue":"Das Bett","location":"Frankfurt Am Main , Germany","date":"11/09/2018"}{"venue":"Feierwerk","location":"Munich , Germany","date":"11/08/2018"}{"venue":"La Machine du Moulin Rouge","location":"Paris , France","date":"11/11/2018"}{"venue":"Electric Factory","location":"Philadelphia PA, United States","date":"12/15/2018"}{"venue":"Zeche","location":"Bochum , Germany","date":"11/10/2018"}{"venue":"Unify Fest","location":"Tarwin Lower , Australia","date":"01/12/2019"}Song: stay the night{"artist":"Zedd","song":"Stay The Night - Featuring Hayley Williams Of Paramore","album":"Clarity (Deluxe)","preview":null}{"artist":"The Internet","song":"Stay the Night","album":"Hive Mind","preview":"https://p.scdn.co/mp3-preview/732b0f0ff3ef8385cd4f2c3350a3fbc654645305?cid=b6f059acda4a45c59d10e0d802be10f1"}{"artist":"State Champs","song":"Stay The Night","album":"Punk Goes Pop, Vol. 6","preview":null}{"artist":"Jukebox The Ghost","song":"Stay the Night","album":"Stay the Night","preview":"https://p.scdn.co/mp3-preview/f58b35b7a71ba62604b4e6e45cdee7c12acb4331?cid=b6f059acda4a45c59d10e0d802be10f1"}{"artist":"Xuitcasecity","song":"Stay the Night","album":"Stay the Night","preview":"https://p.scdn.co/mp3-preview/fdee65fcaf3b4574a9cf537e72eed8af8916f627?cid=b6f059acda4a45c59d10e0d802be10f1"}Movie: Ant man and the wasp{"title":"Ant-Man and the Wasp","releaseYear":"2018","rated":"PG-13","imdbRating":"7.3/10","rottenTomatoesRating":"88%","country":"USA","language":"English","plot":"As Scott Lang balances being both a Super Hero and a father, Hope van Dyne and Dr. Hank Pym present an urgent new mission that finds the Ant-Man fighting alongside The Wasp to uncover secrets from their past.","actors":"Paul Rudd, Evangeline Lilly, Michael Peña, Walton Goggins"}{"title":"22 July","releaseYear":"2018","rated":"N/A","imdbRating":"6.4/10","rottenTomatoesRating":"84%","country":"Norway, Iceland, USA","language":"English","plot":"A three-part story of Norway's worst terrorist attack in which over seventy people were killed. 22 July looks at the disaster itself, the survivors, Norway's political system and the lawyers who worked on this horrific case.","actors":"Jon Øigarden, Øystein Martinsen, Anders Danielsen Lie, Thorbjørn Harr"}Dealer's Choice{"title":"22 July","releaseYear":"2018","rated":"N/A","imdbRating":"6.4/10","rottenTomatoesRating":"84%","country":"Norway, Iceland, USA","language":"English","plot":"A three-part story of Norway's worst terrorist attack in which over seventy people were killed. 22 July looks at the disaster itself, the survivors, Norway's political system and the lawyers who worked on this horrific case.","actors":"Jon Øigarden, Øystein Martinsen, Anders Danielsen Lie, Thorbjørn Harr"}Dealer's ChoiceUh, we had a slight weapons malfunction, but uh... everything's perfectly all right now. We're fine. We're all fine here now, thank you. How are you?Dealer's ChoiceSong: till the world ends{"artist":"Britney Spears","song":"Till the World Ends","album":"Femme Fatale (Deluxe Version)","preview":"https://p.scdn.co/mp3-preview/fd017ae5c0a60cff3d5f5b4d37c4e8617c93b11f?cid=b6f059acda4a45c59d10e0d802be10f1"}{"artist":"Jamestown Story","song":"Till the World Ends (Reimagined)","album":"The Recollection","preview":"https://p.scdn.co/mp3-preview/a84b6cdb59f92701ed4814895a20d59e4536ff47?cid=b6f059acda4a45c59d10e0d802be10f1"}{"artist":"Britney Spears","song":"Till the World Ends","album":"Till The World Ends The Remixes","preview":"https://p.scdn.co/mp3-preview/2ff07253a1bbf4e23e54a3de010d47716ffcb5f0?cid=b6f059acda4a45c59d10e0d802be10f1"}{"artist":"I See Stars","song":"Till The World Ends","album":"Punk Goes Pop, Vol. 4","preview":null}{"artist":"Britney Spears","song":"Till the World Ends","album":"The Essential Britney Spears","preview":"https://p.scdn.co/mp3-preview/6f992db8c4096af2e71e68d37fd17a6c9dc82deb?cid=b6f059acda4a45c59d10e0d802be10f1"}Dealer's ChoicetrackSong: born for this{"artist":"Paramore","song":"Born For This","album":"RIOT!","preview":"https://p.scdn.co/mp3-preview/ec930992d64dd8a1de6d8c99179354437df1b77d?cid=b6f059acda4a45c59d10e0d802be10f1"}{"artist":"Royal Deluxe","song":"I'm a Wanted Man","album":"Born for This","preview":"https://p.scdn.co/mp3-preview/11c22eb3df7edd31187ba173ce65677d27bf269e?cid=b6f059acda4a45c59d10e0d802be10f1"}{"artist":"Royal Deluxe","song":"Dangerous","album":"Born for This","preview":"https://p.scdn.co/mp3-preview/73a19363930eb1add4e9bdc5804805ca07b6ad11?cid=b6f059acda4a45c59d10e0d802be10f1"}{"artist":"Royal Deluxe","song":"Born for This","album":"Born for This","preview":"https://p.scdn.co/mp3-preview/1a9bf1fe0d1051d06960b3ee6ad676a665ed5e2c?cid=b6f059acda4a45c59d10e0d802be10f1"}{"artist":"Mandisa","song":"Born for This (ESTHER)","album":"Music Inspired By the Story","preview":null}Dealer's Choicerandom.txt says - movie-this, captain americaDealer's Choicerandom.txt says - movie-this, captain america{"title":"Captain America","releaseYear":"1990","rated":"PG-13","imdbRating":"3.3/10","rottenTomatoesRating":"8%","country":"USA, Yugoslavia","language":"English","plot":"Frozen in the ice for decades, Captain America is freed to battle against arch-criminal, The Red Skull.","actors":"Matt Salinger, Ronny Cox, Ned Beatty, Darren McGavin"}Dealer's Choicerandom.txt says: "artist, pierce the veil"Dealer's Choicerandom.txt says: "artist, pierce the veil"Dealer's Choicerandom.txt says: "artist, pierce the veil"Dealer's Choicerandom.txt says: "band, pierce the veil"Dealer's Choicerandom.txt says: "band,pierce the veil"Dealer's ChoiceDealer's ChoiceDealer's Choicerandom.txt says: "band"Band: the white tie affairDealer's Choicerandom.txt says: "band"Band: good charlotte{"venue":"Phase 2 Dining & Entertainment","location":"Lynchburg VA, United States","date":"10/20/2018"}{"venue":"The Fillmore - Philadelphia","location":"Philadelphia PA, United States","date":"10/21/2018"}{"venue":"Palladium","location":"Worcester MA, United States","date":"10/23/2018"}{"venue":"REBEL","location":"Toronto , Canada","date":"10/25/2018"}{"venue":"MTELUS","location":"Montreal , Canada","date":"10/26/2018"}{"venue":"S.I. Hall - NYS Fairgrounds","location":"Syracuse NY, United States","date":"10/27/2018"}{"venue":"Agora Theater & Ballroom","location":"Cleveland OH, United States","date":"10/28/2018"}{"venue":"Terminal 5","location":"New York NY, United States","date":"10/29/2018"}{"venue":"The Fillmore Detroit","location":"Detroit MI, United States","date":"11/01/2018"}{"venue":"Express Live!","location":"Columbus OH, United States","date":"11/02/2018"}{"venue":"20 Monroe Live","location":"Grand Rapids MI, United States","date":"11/03/2018"}{"venue":"Riviera Theatre","location":"Chicago IL, United States","date":"11/04/2018"}{"venue":"Skyway Theater","location":"Minneapolis MN, United States","date":"11/06/2018"}{"venue":"Aztec Theatre","location":"San Antonio TX, United States","date":"11/10/2018"}{"venue":"House of Blues Dallas","location":"Dallas TX, United States","date":"11/11/2018"}{"venue":"House of Blues Houston","location":"Houston TX, United States","date":"11/12/2018"}{"venue":"Ogden Theatre","location":"Denver CO, United States","date":"11/14/2018"}{"venue":"Rockwell At The Complex","location":"Salt Lake City Utah, United States","date":"11/15/2018"}{"venue":"Revolution Concert House","location":"Garden City ID, United States","date":"11/16/2018"}{"venue":"Roseland Theater","location":"Portland OR, United States","date":"11/17/2018"}{"venue":"Showbox SoDo","location":"Seattle WA, United States","date":"11/18/2018"}{"venue":"The Warfield","location":"San Francisco CA, United States","date":"11/20/2018"}{"venue":"Hollywood Palladium","location":"Los Angeles CA, United States","date":"11/21/2018"}{"venue":"The Van Buren","location":"Phoenix AZ, United States","date":"11/23/2018"}{"venue":"Pearl Concert Theater at Palms Casino Resort","location":"Las Vegas NV, United States","date":"11/24/2018"}{"venue":"Sunshine Theater","location":"Albuquerque NM, United States","date":"11/26/2018"}{"venue":"Diamond Ballroom","location":"Oklahoma City OK, United States","date":"11/27/2018"}{"venue":"Arvest Bank Theatre At the Midland","location":"Kansas City MO, United States","date":"11/28/2018"}{"venue":"Planet.tt Bank Austria Halle Gasometer","location":"Wien , Austria","date":"01/31/2019"}{"venue":"Komplex 457","location":"Zurich , Switzerland","date":"02/01/2019"}{"venue":"Alcatraz","location":"Milan , Italy","date":"02/03/2019"}{"venue":"Palladium","location":"Koln , Germany","date":"02/05/2019"}{"venue":"Ancienne Belgique","location":"Brussels , Belgium","date":"02/07/2019"}{"venue":"Zenith Paris - La Villette","location":"Paris , France","date":"02/08/2019"}{"venue":"Stadthalle Offenbach","location":"Offenbach Am Main , Germany","date":"02/09/2019"}{"venue":"Forum Karlin","location":"Prague , Czech Republic","date":"02/11/2019"}{"venue":"Klub Stodoła","location":"Warsaw , Poland","date":"02/12/2019"}{"venue":"Zenith, die Kulturhalle","location":"Munchen , Germany","date":"02/04/2019"}{"venue":"Columbiahalle","location":"Berlin , Germany","date":"02/13/2019"}{"venue":"Rockhal","location":"Roeser , Luxembourg","date":"02/15/2019"}{"venue":"Poppodium 013","location":"Tilburg , Netherlands","date":"02/18/2019"}{"venue":"Alexandra Palace","location":"London , United Kingdom","date":"02/20/2019"}{"venue":"sporthalle hamburg","location":"Hamburg-nord , Germany","date":"02/16/2019"}Dealer's Choicerandom.txt says: "band"Band: the white tie affairDealer's Choicerandom.txt says: "band"Band: the white tie affairThere are no upcoming shows for this artist.Dealer's Choicerandom.txt says: "band"Band: pierce the veilThere are no upcoming shows for this artist.Dealer's Choicerandom.txt says: "band"Band: panic at the disco{"venue":"Mall of Asia Arena","location":"Manila , Philippines","date":"10/20/2018"}{"venue":"ZEPP Osaka Bayside","location":"Osaka , Japan","date":"10/25/2018"}{"venue":"Shinkiba Studio Coast","location":"Tokyo , Japan","date":"10/23/2018"}{"venue":"Corona Capital 2018","location":"Mexico City , Mexico","date":"11/17/2018"}{"venue":"ZEPP Tokyo","location":"Tokyo , Japan","date":"10/22/2018"}{"venue":"KeyBank Center","location":"Buffalo NY, United States","date":"01/10/2019"}{"venue":"SNHU Arena","location":"Manchester NH, United States","date":"01/13/2019"}{"venue":"Place Bell","location":"Laval , Canada","date":"01/12/2019"}{"venue":"Times Union Center","location":"Albany NY, United States","date":"01/15/2019"}{"venue":"Barclays Center","location":"Brooklyn NY, United States","date":"01/16/2019"}{"venue":"Prudential Center","location":"Newark NJ, United States","date":"01/18/2019"}{"venue":"Dunkin' Donuts Center","location":"Providence RI, United States","date":"01/19/2019"}{"venue":"Capital One Arena","location":"Washington DC, United States","date":"01/20/2019"}{"venue":"Spectrum Center","location":"Charlotte NC, United States","date":"01/22/2019"}{"venue":"John Paul Jones Arena","location":"Charlottesville VA, United States","date":"01/23/2019"}{"venue":"Fiserv Forum","location":"Milwaukee WI, United States","date":"01/27/2019"}{"venue":"Bridgestone Arena","location":"Nashville TN, United States","date":"01/25/2019"}{"venue":"The Van Andel Arena","location":"Grand Rapids MI, United States","date":"01/29/2019"}{"venue":"U.S. Bank Arena","location":"Cincinnati OH, United States","date":"01/26/2019"}{"venue":"Quicken Loans Arena","location":"Cleveland OH, United States","date":"01/30/2019"}{"venue":"Sprint Center","location":"Kansas City MO, United States","date":"02/02/2019"}{"venue":"Allstate Arena","location":"Rosemont IL, United States","date":"02/04/2019"}{"venue":"CenturyLink Center","location":"Omaha NE, United States","date":"02/01/2019"}{"venue":"Enterprise Center","location":"Saint Louis MO, United States","date":"02/05/2019"}{"venue":"FedExForum","location":"Memphis TN, United States","date":"02/06/2019"}{"venue":"Frank Erwin Center","location":"Austin TX, United States","date":"02/08/2019"}{"venue":"Smoothie King Center","location":"New Orleans LA, United States","date":"02/09/2019"}{"venue":"Tingley Coliseum","location":"Albuquerque NM, United States","date":"02/12/2019"}{"venue":"Honda Center","location":"Anaheim CA, United States","date":"02/14/2019"}{"venue":"The Forum","location":"Inglewood CA, United States","date":"02/15/2019"}{"venue":"Valley View Casino Center","location":"San Diego CA, United States","date":"02/16/2019"}{"venue":"ORACLE Arena","location":"Oakland CA, United States","date":"02/19/2019"}{"venue":"Golden1 Center","location":"Sacramento CA, United States","date":"02/20/2019"}{"venue":"Stadthalle","location":"Offenbach , Germany","date":"03/14/2019"}{"venue":"Columbiahalle ","location":"Berlin , Germany","date":"03/15/2019"}{"venue":"Mitsubishi Electric Halle","location":"Düsseldorf , Germany","date":"03/16/2019"}{"venue":"AFAS Live","location":"Amsterdam , Netherlands","date":"03/18/2019"}{"venue":"Zenith","location":"Paris , France","date":"03/19/2019"}{"venue":"Lotto Arena","location":"Antwerp , Belgium","date":"03/21/2019"}{"venue":"SSE Hydro","location":"Glasgow , United Kingdom","date":"03/24/2019"}{"venue":"Motorpoint Arena","location":"Cardiff , United Kingdom","date":"03/25/2019"}{"venue":"Arena Birmingham","location":"Birmingham , United Kingdom","date":"03/26/2019"}{"venue":"The O2","location":"London , United Kingdom","date":"03/28/2019"}{"venue":"The O2","location":"London , United Kingdom","date":"03/29/2019"}{"venue":"Manchester Arena","location":"Manchester , United Kingdom","date":"03/30/2019"}Dealer's Choicerandom.txt says: "film, captain america"{"title":"Captain America","releaseYear":"1990","rated":"PG-13","imdbRating":"3.3/10","rottenTomatoesRating":"8%","country":"USA, Yugoslavia","language":"English","plot":"Frozen in the ice for decades, Captain America is freed to battle against arch-criminal, The Red Skull.","actors":"Matt Salinger, Ronny Cox, Ned Beatty, Darren McGavin"}Dealer's Choicerandom.txt says: "film, captain america
 
-"{"title":"Captain America","releaseYear":"1990","rated":"PG-13","imdbRating":"3.3/10","rottenTomatoesRating":"8%","country":"USA, Yugoslavia","language":"English","plot":"Frozen in the ice for decades, Captain America is freed to battle against arch-criminal, The Red Skull.","actors":"Matt Salinger, Ronny Cox, Ned Beatty, Darren McGavin"}Dealer's Choicerandom.txt says: "artist, pierce the veil"There are no upcoming shows for this artist.Dealer's Choicerandom.txt says: "artist, panic at the disco"{"venue":"Mall of Asia Arena","location":"Manila , Philippines","date":"10/20/2018"}{"venue":"ZEPP Tokyo","location":"Tokyo , Japan","date":"10/22/2018"}{"venue":"Shinkiba Studio Coast","location":"Tokyo , Japan","date":"10/23/2018"}{"venue":"ZEPP Osaka Bayside","location":"Osaka , Japan","date":"10/25/2018"}{"venue":"Corona Capital 2018","location":"Mexico City , Mexico","date":"11/17/2018"}{"venue":"Place Bell","location":"Laval , Canada","date":"01/12/2019"}{"venue":"KeyBank Center","location":"Buffalo NY, United States","date":"01/10/2019"}{"venue":"Times Union Center","location":"Albany NY, United States","date":"01/15/2019"}{"venue":"Prudential Center","location":"Newark NJ, United States","date":"01/18/2019"}{"venue":"Barclays Center","location":"Brooklyn NY, United States","date":"01/16/2019"}{"venue":"Dunkin' Donuts Center","location":"Providence RI, United States","date":"01/19/2019"}{"venue":"Capital One Arena","location":"Washington DC, United States","date":"01/20/2019"}{"venue":"Spectrum Center","location":"Charlotte NC, United States","date":"01/22/2019"}{"venue":"John Paul Jones Arena","location":"Charlottesville VA, United States","date":"01/23/2019"}{"venue":"SNHU Arena","location":"Manchester NH, United States","date":"01/13/2019"}{"venue":"Bridgestone Arena","location":"Nashville TN, United States","date":"01/25/2019"}{"venue":"U.S. Bank Arena","location":"Cincinnati OH, United States","date":"01/26/2019"}{"venue":"Fiserv Forum","location":"Milwaukee WI, United States","date":"01/27/2019"}{"venue":"The Van Andel Arena","location":"Grand Rapids MI, United States","date":"01/29/2019"}{"venue":"Quicken Loans Arena","location":"Cleveland OH, United States","date":"01/30/2019"}{"venue":"CenturyLink Center","location":"Omaha NE, United States","date":"02/01/2019"}{"venue":"Sprint Center","location":"Kansas City MO, United States","date":"02/02/2019"}{"venue":"Allstate Arena","location":"Rosemont IL, United States","date":"02/04/2019"}{"venue":"Enterprise Center","location":"Saint Louis MO, United States","date":"02/05/2019"}{"venue":"FedExForum","location":"Memphis TN, United States","date":"02/06/2019"}{"venue":"Frank Erwin Center","location":"Austin TX, United States","date":"02/08/2019"}{"venue":"Smoothie King Center","location":"New Orleans LA, United States","date":"02/09/2019"}{"venue":"Tingley Coliseum","location":"Albuquerque NM, United States","date":"02/12/2019"}{"venue":"Honda Center","location":"Anaheim CA, United States","date":"02/14/2019"}{"venue":"The Forum","location":"Inglewood CA, United States","date":"02/15/2019"}{"venue":"Valley View Casino Center","location":"San Diego CA, United States","date":"02/16/2019"}{"venue":"ORACLE Arena","location":"Oakland CA, United States","date":"02/19/2019"}{"venue":"Golden1 Center","location":"Sacramento CA, United States","date":"02/20/2019"}{"venue":"Stadthalle","location":"Offenbach , Germany","date":"03/14/2019"}{"venue":"Columbiahalle ","location":"Berlin , Germany","date":"03/15/2019"}{"venue":"Mitsubishi Electric Halle","location":"Düsseldorf , Germany","date":"03/16/2019"}{"venue":"AFAS Live","location":"Amsterdam , Netherlands","date":"03/18/2019"}{"venue":"Zenith","location":"Paris , France","date":"03/19/2019"}{"venue":"Lotto Arena","location":"Antwerp , Belgium","date":"03/21/2019"}{"venue":"SSE Hydro","location":"Glasgow , United Kingdom","date":"03/24/2019"}{"venue":"Motorpoint Arena","location":"Cardiff , United Kingdom","date":"03/25/2019"}{"venue":"Arena Birmingham","location":"Birmingham , United Kingdom","date":"03/26/2019"}{"venue":"The O2","location":"London , United Kingdom","date":"03/28/2019"}{"venue":"The O2","location":"London , United Kingdom","date":"03/29/2019"}{"venue":"Manchester Arena","location":"Manchester , United Kingdom","date":"03/30/2019"}Band: black veil brides{"venue":"The Roxy","location":"Los Angeles CA, United States","date":"10/20/2018"}Song: in the end{"artist":"Cole Swindell","song":"Break Up in the End","album":"Break Up in the End","preview":"https://p.scdn.co/mp3-preview/b78cb1511e87f6ede396e0d3036c633b349f3258?cid=b6f059acda4a45c59d10e0d802be10f1"}{"artist":"Linkin Park","song":"In The End","album":"Hybrid Theory (Bonus Track Version)","preview":"https://p.scdn.co/mp3-preview/993540fd7aa1a0a44bb0d1b2c82092578c831b07?cid=b6f059acda4a45c59d10e0d802be10f1"}{"artist":"Linkin Park","song":"In The End","album":"Hybrid Theory","preview":"https://p.scdn.co/mp3-preview/993540fd7aa1a0a44bb0d1b2c82092578c831b07?cid=b6f059acda4a45c59d10e0d802be10f1"}{"artist":"Cole Swindell","song":"Break Up in the End","album":"All of It","preview":"https://p.scdn.co/mp3-preview/68ecf0a7b8894befd989f29d0ec14d6a31c1b4a0?cid=b6f059acda4a45c59d10e0d802be10f1"}{"artist":"Black Veil Brides","song":"In The End","album":"Wretched And Divine: The Story Of The Wild Ones","preview":null}Movie: american animals{"title":"American Animals","releaseYear":"2018","rated":"R","imdbRating":"7.1/10","rottenTomatoesRating":"88%","country":"UK, USA","language":"English","plot":"Four young men mistake their lives for a movie and attempt one of the most audacious heists in U.S. history.","actors":"Spencer Reinhard, Warren Lipka, Eric Borsuk, Chas Allen"}Song: somebody that i used to know{"artist":"Gotye","song":"Somebody That I Used To Know - feat. Kimbra","album":"Making Mirrors","preview":null}{"artist":"Pentatonix","song":"Somebody That I Used to Know","album":"PTX, Vol. 1","preview":"https://p.scdn.co/mp3-preview/5faeb30b434e225645ce4181c0d1795a5718a464?cid=b6f059acda4a45c59d10e0d802be10f1"}{"artist":"Elliott Smith","song":"Somebody That I Used To Know","album":"Figure 8","preview":null}{"artist":"Mayday Parade","song":"Somebody That I Used To Know","album":"Punk Goes Pop, Vol. 5","preview":null}{"artist":"Mayday Parade","song":"Somebody That I Used To Know (feat. Vic Fuentes)","album":"Punk Goes Pop 5","preview":"https://p.scdn.co/mp3-preview/0eda58fd79dbfc16911ccf535981da8be95f74b3?cid=b6f059acda4a45c59d10e0d802be10f1"}Dealer's Choicerandom.txt says: "artist, panic at the disco"{"venue":"ZEPP Osaka Bayside","location":"Osaka , Japan","date":"10/25/2018"}{"venue":"Corona Capital 2018","location":"Mexico City , Mexico","date":"11/17/2018"}{"venue":"KeyBank Center","location":"Buffalo NY, United States","date":"01/10/2019"}{"venue":"Place Bell","location":"Laval , Canada","date":"01/12/2019"}{"venue":"SNHU Arena","location":"Manchester NH, United States","date":"01/13/2019"}{"venue":"Times Union Center","location":"Albany NY, United States","date":"01/15/2019"}{"venue":"Barclays Center","location":"Brooklyn NY, United States","date":"01/16/2019"}{"venue":"Dunkin' Donuts Center","location":"Providence RI, United States","date":"01/19/2019"}{"venue":"Prudential Center","location":"Newark NJ, United States","date":"01/18/2019"}{"venue":"Capital One Arena","location":"Washington DC, United States","date":"01/20/2019"}{"venue":"Spectrum Center","location":"Charlotte NC, United States","date":"01/22/2019"}{"venue":"John Paul Jones Arena","location":"Charlottesville VA, United States","date":"01/23/2019"}{"venue":"U.S. Bank Arena","location":"Cincinnati OH, United States","date":"01/26/2019"}{"venue":"Bridgestone Arena","location":"Nashville TN, United States","date":"01/25/2019"}{"venue":"Fiserv Forum","location":"Milwaukee WI, United States","date":"01/27/2019"}{"venue":"The Van Andel Arena","location":"Grand Rapids MI, United States","date":"01/29/2019"}{"venue":"CenturyLink Center","location":"Omaha NE, United States","date":"02/01/2019"}{"venue":"Quicken Loans Arena","location":"Cleveland OH, United States","date":"01/30/2019"}{"venue":"Allstate Arena","location":"Rosemont IL, United States","date":"02/04/2019"}{"venue":"Sprint Center","location":"Kansas City MO, United States","date":"02/02/2019"}{"venue":"Enterprise Center","location":"Saint Louis MO, United States","date":"02/05/2019"}{"venue":"Frank Erwin Center","location":"Austin TX, United States","date":"02/08/2019"}{"venue":"FedExForum","location":"Memphis TN, United States","date":"02/06/2019"}{"venue":"Smoothie King Center","location":"New Orleans LA, United States","date":"02/09/2019"}{"venue":"Honda Center","location":"Anaheim CA, United States","date":"02/14/2019"}{"venue":"Tingley Coliseum","location":"Albuquerque NM, United States","date":"02/12/2019"}{"venue":"Valley View Casino Center","location":"San Diego CA, United States","date":"02/16/2019"}{"venue":"The Forum","location":"Inglewood CA, United States","date":"02/15/2019"}{"venue":"ORACLE Arena","location":"Oakland CA, United States","date":"02/19/2019"}{"venue":"Golden1 Center","location":"Sacramento CA, United States","date":"02/20/2019"}{"venue":"Mitsubishi Electric Halle","location":"Düsseldorf , Germany","date":"03/16/2019"}{"venue":"AFAS Live","location":"Amsterdam , Netherlands","date":"03/18/2019"}{"venue":"Stadthalle","location":"Offenbach , Germany","date":"03/14/2019"}{"venue":"Columbiahalle ","location":"Berlin , Germany","date":"03/15/2019"}{"venue":"Lotto Arena","location":"Antwerp , Belgium","date":"03/21/2019"}{"venue":"SSE Hydro","location":"Glasgow , United Kingdom","date":"03/24/2019"}{"venue":"Zenith","location":"Paris , France","date":"03/19/2019"}{"venue":"Motorpoint Arena","location":"Cardiff , United Kingdom","date":"03/25/2019"}{"venue":"Arena Birmingham","location":"Birmingham , United Kingdom","date":"03/26/2019"}{"venue":"The O2","location":"London , United Kingdom","date":"03/29/2019"}{"venue":"The O2","location":"London , United Kingdom","date":"03/28/2019"}{"venue":"Manchester Arena","location":"Manchester , United Kingdom","date":"03/30/2019"}Song: all the small things{"artist":"blink-182","song":"All The Small Things","album":"Enema Of The State","preview":null}{"artist":"blink-182","song":"All The Small Things","album":"Enema Of The State","preview":null}{"artist":"Fame on Fire","song":"All the Small Things","album":"All the Small Things","preview":"https://p.scdn.co/mp3-preview/c0946e586a6c7673db9e601e97a966280d25d680?cid=b6f059acda4a45c59d10e0d802be10f1"}{"artist":"blink-182","song":"All The Small Things","album":"Greatest Hits","preview":null}{"artist":"Scott Bradlee's Postmodern Jukebox","song":"All The Small Things","album":"Fake Blues","preview":"https://p.scdn.co/mp3-preview/8a39c7a626a1c4f9e8c5717668319cbd646edca5?cid=b6f059acda4a45c59d10e0d802be10f1"}Movie: daredevilMovie: star wars{"title":"Star Wars: Episode IV - A New Hope","releaseYear":"1977","rated":"PG","imdbRating":"8.6/10","rottenTomatoesRating":"93%","country":"USA","language":"English","plot":"Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the evil Darth Vader.","actors":"Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing"}Movie: DaredevilMovie: daredevilMovie: daredevil movieMovie: catch and release{"title":"Catch and Release","releaseYear":"2006","rated":"PG-13","imdbRating":"6.0/10","rottenTomatoesRating":"22%","country":"USA","language":"English","plot":"A woman struggles to accept the death of her fiancé and the secrets he kept from her as she rebuilds her life.","actors":"Jennifer Garner, Timothy Olyphant, Sam Jaeger, Kevin Smith"}
+Band: good charlotte
+
+{"venue":"REBEL","location":"Toronto , Canada","date":"10/25/2018"}
+
+{"venue":"MTELUS","location":"Montreal , Canada","date":"10/26/2018"}
+
+{"venue":"S.I. Hall - NYS Fairgrounds","location":"Syracuse NY, United States","date":"10/27/2018"}
+
+{"venue":"Terminal 5","location":"New York NY, United States","date":"10/29/2018"}
+
+{"venue":"Agora Theater & Ballroom","location":"Cleveland OH, United States","date":"10/28/2018"}
+
+{"venue":"The Fillmore Detroit","location":"Detroit MI, United States","date":"11/01/2018"}
+
+{"venue":"Riviera Theatre","location":"Chicago IL, United States","date":"11/04/2018"}
+
+{"venue":"20 Monroe Live","location":"Grand Rapids MI, United States","date":"11/03/2018"}
+
+{"venue":"Express Live!","location":"Columbus OH, United States","date":"11/02/2018"}
+
+{"venue":"Aztec Theatre","location":"San Antonio TX, United States","date":"11/10/2018"}
+
+{"venue":"Skyway Theater","location":"Minneapolis MN, United States","date":"11/06/2018"}
+
+{"venue":"House of Blues Dallas","location":"Dallas TX, United States","date":"11/11/2018"}
+
+{"venue":"Ogden Theatre","location":"Denver CO, United States","date":"11/14/2018"}
+
+{"venue":"Rockwell At The Complex","location":"Salt Lake City Utah, United States","date":"11/15/2018"}
+
+{"venue":"House of Blues Houston","location":"Houston TX, United States","date":"11/12/2018"}
+
+{"venue":"Revolution Concert House","location":"Garden City ID, United States","date":"11/16/2018"}
+
+{"venue":"Showbox SoDo","location":"Seattle WA, United States","date":"11/18/2018"}
+
+{"venue":"Roseland Theater","location":"Portland OR, United States","date":"11/17/2018"}
+
+{"venue":"The Warfield","location":"San Francisco CA, United States","date":"11/20/2018"}
+
+{"venue":"Hollywood Palladium","location":"Los Angeles CA, United States","date":"11/21/2018"}
+
+{"venue":"Pearl Concert Theater at Palms Casino Resort","location":"Las Vegas NV, United States","date":"11/24/2018"}
+
+{"venue":"Sunshine Theater","location":"Albuquerque NM, United States","date":"11/26/2018"}
+
+{"venue":"The Van Buren","location":"Phoenix AZ, United States","date":"11/23/2018"}
+
+{"venue":"Diamond Ballroom","location":"Oklahoma City OK, United States","date":"11/27/2018"}
+
+{"venue":"Arvest Bank Theatre At the Midland","location":"Kansas City MO, United States","date":"11/28/2018"}
+
+{"venue":"Planet.tt Bank Austria Halle Gasometer","location":"Wien , Austria","date":"01/31/2019"}
+
+{"venue":"Alcatraz","location":"Milan , Italy","date":"02/03/2019"}
+
+{"venue":"Komplex 457","location":"Zurich , Switzerland","date":"02/01/2019"}
+
+{"venue":"Ancienne Belgique","location":"Brussels , Belgium","date":"02/07/2019"}
+
+{"venue":"Zenith Paris - La Villette","location":"Paris , France","date":"02/08/2019"}
+
+{"venue":"Stadthalle Offenbach","location":"Offenbach Am Main , Germany","date":"02/09/2019"}
+
+{"venue":"Forum Karlin","location":"Prague , Czech Republic","date":"02/11/2019"}
+
+{"venue":"Klub Stodoła","location":"Warsaw , Poland","date":"02/12/2019"}
+
+{"venue":"Palladium","location":"Koln , Germany","date":"02/05/2019"}
+
+{"venue":"Columbiahalle","location":"Berlin , Germany","date":"02/13/2019"}
+
+{"venue":"Zenith, die Kulturhalle","location":"Munchen , Germany","date":"02/04/2019"}
+
+{"venue":"sporthalle hamburg","location":"Hamburg-nord , Germany","date":"02/16/2019"}
+
+{"venue":"Alexandra Palace","location":"London , United Kingdom","date":"02/20/2019"}
+
+{"venue":"Poppodium 013","location":"Tilburg , Netherlands","date":"02/18/2019"}
+
+{"venue":"Rockhal","location":"Roeser , Luxembourg","date":"02/15/2019"}
+
+Song: happy song
+
+{"artist":"Grouplove","song":"Tongue Tied","album":"Never Trust A Happy Song","preview":"https://p.scdn.co/mp3-preview/2147e7bd8762aa4f7f1ce38ba02cfa618c530758?cid=b6f059acda4a45c59d10e0d802be10f1"}
+
+{"artist":"Bring Me The Horizon","song":"Happy Song","album":"That's The Spirit","preview":"https://p.scdn.co/mp3-preview/c2c7652171ee1e34ddc6634cd339ce10a3425e6d?cid=b6f059acda4a45c59d10e0d802be10f1"}
+
+{"artist":"Bring Me The Horizon","song":"Happy Song","album":"That's The Spirit (Track by Track Commentary)","preview":"https://p.scdn.co/mp3-preview/a3f1737625c963894e3c99c7790b8b0aef16a6c5?cid=b6f059acda4a45c59d10e0d802be10f1"}
+
+{"artist":"Grouplove","song":"Itchin' On A Photograph","album":"Never Trust A Happy Song","preview":"https://p.scdn.co/mp3-preview/eeb174b10b72e79381be0c8f6fd92a99a6fce6a9?cid=b6f059acda4a45c59d10e0d802be10f1"}
+
+{"artist":"Grouplove","song":"Colours","album":"Never Trust A Happy Song","preview":"https://p.scdn.co/mp3-preview/7ac45505c8275041535b4543efbc999d376ceace?cid=b6f059acda4a45c59d10e0d802be10f1"}
+
+Movie: jaws
+
+{"title":"Jaws","releaseYear":"1975","rated":"PG","imdbRating":"8.0/10","rottenTomatoesRating":"97%","country":"USA","language":"English","plot":"A local sheriff, a marine biologist and an old seafarer team up to hunt down a great white shark wreaking havoc in a beach resort.","actors":"Roy Scheider, Robert Shaw, Richard Dreyfuss, Lorraine Gary"}
+
+Dealer's Choice
+
+random.txt says: "artist, panic at the disco"
+
+{"venue":"ZEPP Osaka Bayside","location":"Osaka , Japan","date":"10/25/2018"}
+
+{"venue":"Corona Capital 2018","location":"Mexico City , Mexico","date":"11/17/2018"}
+
+{"venue":"SNHU Arena","location":"Manchester NH, United States","date":"01/13/2019"}
+
+{"venue":"KeyBank Center","location":"Buffalo NY, United States","date":"01/10/2019"}
+
+{"venue":"Place Bell","location":"Laval , Canada","date":"01/12/2019"}
+
+{"venue":"Times Union Center","location":"Albany NY, United States","date":"01/15/2019"}
+
+{"venue":"Barclays Center","location":"Brooklyn NY, United States","date":"01/16/2019"}
+
+{"venue":"Prudential Center","location":"Newark NJ, United States","date":"01/18/2019"}
+
+{"venue":"Dunkin' Donuts Center","location":"Providence RI, United States","date":"01/19/2019"}
+
+{"venue":"Capital One Arena","location":"Washington DC, United States","date":"01/20/2019"}
+
+{"venue":"Spectrum Center","location":"Charlotte NC, United States","date":"01/22/2019"}
+
+{"venue":"John Paul Jones Arena","location":"Charlottesville VA, United States","date":"01/23/2019"}
+
+{"venue":"U.S. Bank Arena","location":"Cincinnati OH, United States","date":"01/26/2019"}
+
+{"venue":"Fiserv Forum","location":"Milwaukee WI, United States","date":"01/27/2019"}
+
+{"venue":"Bridgestone Arena","location":"Nashville TN, United States","date":"01/25/2019"}
+
+{"venue":"The Van Andel Arena","location":"Grand Rapids MI, United States","date":"01/29/2019"}
+
+{"venue":"Quicken Loans Arena","location":"Cleveland OH, United States","date":"01/30/2019"}
+
+{"venue":"CenturyLink Center","location":"Omaha NE, United States","date":"02/01/2019"}
+
+{"venue":"Sprint Center","location":"Kansas City MO, United States","date":"02/02/2019"}
+
+{"venue":"Allstate Arena","location":"Rosemont IL, United States","date":"02/04/2019"}
+
+{"venue":"Enterprise Center","location":"Saint Louis MO, United States","date":"02/05/2019"}
+
+{"venue":"FedExForum","location":"Memphis TN, United States","date":"02/06/2019"}
+
+{"venue":"Frank Erwin Center","location":"Austin TX, United States","date":"02/08/2019"}
+
+{"venue":"Smoothie King Center","location":"New Orleans LA, United States","date":"02/09/2019"}
+
+{"venue":"Tingley Coliseum","location":"Albuquerque NM, United States","date":"02/12/2019"}
+
+{"venue":"Honda Center","location":"Anaheim CA, United States","date":"02/14/2019"}
+
+{"venue":"The Forum","location":"Inglewood CA, United States","date":"02/15/2019"}
+
+{"venue":"Valley View Casino Center","location":"San Diego CA, United States","date":"02/16/2019"}
+
+{"venue":"ORACLE Arena","location":"Oakland CA, United States","date":"02/19/2019"}
+
+{"venue":"Golden1 Center","location":"Sacramento CA, United States","date":"02/20/2019"}
+
+{"venue":"Stadthalle","location":"Offenbach , Germany","date":"03/14/2019"}
+
+{"venue":"Columbiahalle ","location":"Berlin , Germany","date":"03/15/2019"}
+
+{"venue":"Mitsubishi Electric Halle","location":"Düsseldorf , Germany","date":"03/16/2019"}
+
+{"venue":"AFAS Live","location":"Amsterdam , Netherlands","date":"03/18/2019"}
+
+{"venue":"Zenith","location":"Paris , France","date":"03/19/2019"}
+
+{"venue":"Lotto Arena","location":"Antwerp , Belgium","date":"03/21/2019"}
+
+{"venue":"SSE Hydro","location":"Glasgow , United Kingdom","date":"03/24/2019"}
+
+{"venue":"Arena Birmingham","location":"Birmingham , United Kingdom","date":"03/26/2019"}
+
+{"venue":"The O2","location":"London , United Kingdom","date":"03/29/2019"}
+
+{"venue":"The O2","location":"London , United Kingdom","date":"03/28/2019"}
+
+{"venue":"Manchester Arena","location":"Manchester , United Kingdom","date":"03/30/2019"}
+
+{"venue":"Motorpoint Arena","location":"Cardiff , United Kingdom","date":"03/25/2019"}
