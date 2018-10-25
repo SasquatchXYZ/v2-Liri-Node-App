@@ -1,0 +1,138 @@
+
+Band: falling in reverse
+
+{"venue":"Warehouse Live","location":"Houston TX, United States","date":"10/25/2018"}
+
+{"venue":"Alamo City Music Hall","location":"San Antonio TX, United States","date":"10/26/2018"}
+
+{"venue":"Vinyl Music Hall","location":"Pensacola FL, United States","date":"10/28/2018"}
+
+{"venue":"The Kelsey Theater ","location":"West Palm Beach FL, United States","date":"10/29/2018"}
+
+{"venue":"The Masquerade (Hell)","location":"Atlanta GA, United States","date":"11/02/2018"}
+
+{"venue":"The Social","location":"Orlando FL, United States","date":"11/01/2018"}
+
+{"venue":"Arizona Pete's","location":"Greensboro NC, United States","date":"11/04/2018"}
+
+{"venue":"German House","location":"Rochester NY, United States","date":"11/09/2018"}
+
+{"venue":"Mr. Smalls Theatre","location":"Millvale PA, United States","date":"11/11/2018"}
+
+{"venue":"Ottobar","location":"Baltimore MD, United States","date":"11/06/2018"}
+
+{"venue":"Palladium","location":"Worcester MA, United States","date":"11/07/2018"}
+
+{"venue":"Grog Shop","location":"Cleveland Heights OH, United States","date":"11/12/2018"}
+
+{"venue":"Bottom Lounge","location":"Chicago IL, United States","date":"11/14/2018"}
+
+{"venue":"Fubar","location":"St. Louis MO, United States","date":"11/16/2018"}
+
+{"venue":"Granada Theater","location":"Lawrence KS, United States","date":"11/18/2018"}
+
+{"venue":"Studio B","location":"Minneapolis MN, United States","date":"11/15/2018"}
+
+{"venue":"The Complex","location":"Salt Lake City UT, United States","date":"11/20/2018"}
+
+{"venue":"Moon Room","location":"Denver CO, United States","date":"11/19/2018"}
+
+{"venue":"Hawthorne","location":"Portland OR, United States","date":"11/23/2018"}
+
+{"venue":"El Corazón","location":"Seattle WA, United States","date":"11/24/2018"}
+
+{"venue":"The Teragram Ballroom","location":"Los Angeles CA, United States","date":"11/27/2018"}
+
+Song: the one that i want
+
+{"artist":"Backstreet Boys","song":"I Want It That Way","album":"The Hits--Chapter One","preview":"https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=b6f059acda4a45c59d10e0d802be10f1"}
+
+{"artist":"John Travolta","song":"You're The One That I Want - From “Grease”","album":"Gold","preview":null}
+
+{"artist":"Alex & Sierra","song":"You're The One That I Want","album":"As Seen On TV","preview":"https://p.scdn.co/mp3-preview/feb9e08a179699ea1156835bd5f09d2b41f7d1cb?cid=b6f059acda4a45c59d10e0d802be10f1"}
+
+{"artist":"John Travolta","song":"You're The One That I Want","album":"Grease","preview":null}
+
+{"artist":"Lo-Fang","song":"You're the One That I Want","album":"Blue Film","preview":"https://p.scdn.co/mp3-preview/0bc3b40878bd3019e366710704998712001a9843?cid=b6f059acda4a45c59d10e0d802be10f1"}
+
+Movie: empire strikes back
+
+{"title":"Star Wars: Episode V - The Empire Strikes Back","released":"20 Jun 1980","rated":"PG","imdbRating":"8.8/10","rottenTomatoesRating":"95%","country":"USA","language":"English","plot":"Luke Skywalker, Han Solo, Princess Leia and Chewbacca face attack by the Imperial forces and its AT-AT walkers on the ice planet Hoth. While Han and Leia escape in the Millennium Falcon, Luke travels to Dagobah in search of Yoda. Only with the Jedi master's help will Luke survive when the dark side of the Force beckons him into the ultimate duel with Darth Vader.","actors":"Mark Hamill, Harrison Ford, Carrie Fisher, Billy Dee Williams","runtime":"124 min"}
+
+Band: falling in reverse
+
+Band: good charlotte
+
+{"title":"Good Charlotte @ Planet.tt Bank Austria Halle Gasometer in Wien, Austria","venue":"Planet.tt Bank Austria Halle Gasometer","date":"Thursday, January 31, 2019 at 8:00PM","location":"Wien, Austria"}
+
+{"title":"Good Charlotte @ KOMPLEX 457 in Zurich, Switzerland","venue":"KOMPLEX 457","date":"Friday, February 1, 2019 at 8:00PM","location":"Zurich, Switzerland"}
+
+{"title":"Good Charlotte @ Alcatraz in Milan, Italy","venue":"Alcatraz","date":"Sunday, February 3, 2019 at 8:00PM","location":"Milan, Italy"}
+
+{"title":"Good Charlotte @ Zenith, die Kulturhalle in München, Germany","venue":"Zenith, die Kulturhalle","date":"Monday, February 4, 2019 at 7:30PM","location":"München, Germany"}
+
+{"title":"Good Charlotte @ Palladium in Köln, Germany","venue":"Palladium","date":"Tuesday, February 5, 2019 at 8:00PM","location":"Köln, Germany"}
+
+{"title":"Good Charlotte @ Ancienne Belgique in Brussels, Belgium","venue":"Ancienne Belgique","date":"Thursday, February 7, 2019 at 7:00PM","location":"Brussels, Belgium"}
+
+{"title":"Good Charlotte @ Stadthalle Offenbach in Offenbach Am Main, Germany","venue":"Stadthalle Offenbach","date":"Saturday, February 9, 2019 at 7:00PM","location":"Offenbach Am Main, Germany"}
+
+{"title":"Good Charlotte @ Forum Karlin in Prague, Czech Republic","venue":"Forum Karlin","date":"Monday, February 11, 2019 at 7:00PM","location":"Prague, Czech Republic"}
+
+{"title":"Good Charlotte @ Zénith Paris La Villette in Paris, France","venue":"Zénith Paris La Villette","date":"Friday, February 8, 2019 at 7:00PM","location":"Paris, France"}
+
+{"title":"Good Charlotte @ Columbiahalle in Berlin, Germany","venue":"Columbiahalle","date":"Wednesday, February 13, 2019 at 7:30PM","location":"Berlin, Germany"}
+
+{"title":"Good Charlotte @ Stodola in Warsaw, Poland","venue":"Stodola","date":"Tuesday, February 12, 2019 at 7:00PM","location":"Warsaw, Poland"}
+
+{"title":"Good Charlotte @ Rockhal in Roeser, Luxembourg","venue":"Rockhal","date":"Friday, February 15, 2019 at 7:00PM","location":"Roeser, Luxembourg"}
+
+{"title":"Good Charlotte @ sporthalle hamburg in Hamburg, Germany","venue":"sporthalle hamburg","date":"Saturday, February 16, 2019 at 7:00PM","location":"Hamburg, Germany"}
+
+{"title":"Good Charlotte @ 013 in Tilburg, Netherlands","venue":"013","date":"Monday, February 18, 2019 at 7:00PM","location":"Tilburg, Netherlands"}
+
+{"title":"Good Charlotte @ Alexandra Palace in London, United Kingdom","venue":"Alexandra Palace","date":"Wednesday, February 20, 2019 at 7:00PM","location":"London, United Kingdom"}
+
+Band: falling in reverse
+
+{"venue":"Warehouse Live","location":"Houston TX, United States","date":"10/25/2018"}
+
+{"venue":"Vinyl Music Hall","location":"Pensacola FL, United States","date":"10/28/2018"}
+
+{"venue":"Alamo City Music Hall","location":"San Antonio TX, United States","date":"10/26/2018"}
+
+{"venue":"The Kelsey Theater ","location":"West Palm Beach FL, United States","date":"10/29/2018"}
+
+{"venue":"The Social","location":"Orlando FL, United States","date":"11/01/2018"}
+
+{"venue":"The Masquerade (Hell)","location":"Atlanta GA, United States","date":"11/02/2018"}
+
+{"venue":"Arizona Pete's","location":"Greensboro NC, United States","date":"11/04/2018"}
+
+{"venue":"Ottobar","location":"Baltimore MD, United States","date":"11/06/2018"}
+
+{"venue":"Palladium","location":"Worcester MA, United States","date":"11/07/2018"}
+
+{"venue":"German House","location":"Rochester NY, United States","date":"11/09/2018"}
+
+{"venue":"Mr. Smalls Theatre","location":"Millvale PA, United States","date":"11/11/2018"}
+
+{"venue":"Grog Shop","location":"Cleveland Heights OH, United States","date":"11/12/2018"}
+
+{"venue":"Bottom Lounge","location":"Chicago IL, United States","date":"11/14/2018"}
+
+{"venue":"Studio B","location":"Minneapolis MN, United States","date":"11/15/2018"}
+
+{"venue":"Fubar","location":"St. Louis MO, United States","date":"11/16/2018"}
+
+{"venue":"Granada Theater","location":"Lawrence KS, United States","date":"11/18/2018"}
+
+{"venue":"Moon Room","location":"Denver CO, United States","date":"11/19/2018"}
+
+{"venue":"The Complex","location":"Salt Lake City UT, United States","date":"11/20/2018"}
+
+{"venue":"Hawthorne","location":"Portland OR, United States","date":"11/23/2018"}
+
+{"venue":"El Corazón","location":"Seattle WA, United States","date":"11/24/2018"}
+
+{"venue":"The Teragram Ballroom","location":"Los Angeles CA, United States","date":"11/27/2018"}

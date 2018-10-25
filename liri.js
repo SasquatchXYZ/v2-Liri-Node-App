@@ -6,13 +6,15 @@ const inquirer = require("inquirer");
 const request = require("request");
 const moment = require("moment");
 
-const bandsintown = require("bandsintown")("codingbootcamp");
+
+const bandsintown = require("bandsintown")(keys.bandsKey);
 const Spotify = require("node-spotify-api");
 const omdbAPI = require("omdb-client");
 
-const bandsAPIkey = "codingbootcamp";
+
+const bandsAPIkey = keys.bandsKey;
 const spotify = new Spotify(keys.spotify);
-const omdbAPIkey = "trilogy";
+const omdbAPIkey = keys.omdbKey;
 
 inquirer
     .prompt([
@@ -127,7 +129,6 @@ function checkRandom() {
                 sortRequest("Movie");
             } else {
                 console.log("Check your random.txt, something's missing...");
-                //console.log("Uh, we had a slight weapons malfunction, but uh... everything's perfectly all right now. We're fine. We're all fine here now, thank you. How are you?");
                 appendLog("Uh, we had a slight weapons malfunction, but uh... everything's perfectly all right now. We're fine. We're all fine here now, thank you. How are you?");
             }
         } else if (randomArray.length === 2) {
@@ -170,7 +171,7 @@ function queryBandsInTown(userRequest) {
         }
     })
 
-    /*    bandsintown
+/*        bandsintown
             .getArtistEventList(userRequest)
             .then(function(events) {
                console.log(events.length);
