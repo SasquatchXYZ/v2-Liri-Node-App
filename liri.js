@@ -16,13 +16,19 @@ const bandsAPIkey = keys.bandsKey;
 const spotify = new Spotify(keys.spotify);
 const omdbAPIkey = keys.omdbKey;
 
+// const TV = require(`./tv`);
+// const TVMaze = require(`./queries.js`);
+// const queryTVMaze = new TVMaze();
+const SecondRequest = require(`./secondRequests`);
+let secondRequest = new SecondRequest();
+
 inquirer
     .prompt([
         {
             type: 'list',
             name: 'userRequest',
             message: 'What Can I Help You Find?',
-            choices: ["Concert", "Song", "Movie", "You Pick LIRI"]
+            choices: ['Concert', 'Song', 'Movie', 'TV', 'You Pick LIRI']
         }
     ])
     .then(function (user) {
@@ -40,6 +46,9 @@ function sortRequest(userChoice) {
             break;
         case "Movie":
             secondRequestMovie();
+            break;
+        case 'TV':
+            secondRequest.tvshow();
             break;
         case "You Pick LIRI":
             checkRandom();
@@ -100,6 +109,27 @@ function secondRequestMovie() {
 
 }
 
+/*function secondRequestTV() {
+    inquirer
+        .prompt([
+            {
+                type: 'list',
+                name: 'search',
+                message: 'Search by:',
+                choices: ['Show', 'Actor']
+            }, {
+                type: 'input',
+                name: 'term',
+                message: 'Name?'
+            }
+        ])
+        .then(function (user) {
+            console.log(user.search, user.term);
+            if (user.search === 'show') {
+            queryTVMaze.findShow(user.term);
+            }
+        });
+}*/
 // LIRI's Choice Functions =============================================================================================
 function checkRandom() {
     fs.readFile("random.txt", "utf8", function (error, data) {
