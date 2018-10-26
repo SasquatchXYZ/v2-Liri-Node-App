@@ -1,17 +1,17 @@
 const inquirer = require("inquirer");
 
-const TVMaze = require(`./queries.js`);
-const queryTVMaze = new TVMaze();
+const QueryAPI = require(`./queries.js`);
+const queryAPI = new QueryAPI();
 
-const SecondRequests = function() {
-    this.tvshow = function() {
+const SecondRequests = function () {
+    this.tvshow = function () {
         inquirer
             .prompt([
                 {
                     type: 'list',
                     name: 'search',
                     message: 'Search by:',
-                    choices: ['Show', 'Actor']
+                    choices: ['Show', 'Actor/Actress']
                 }, {
                     type: 'input',
                     name: 'term',
@@ -19,11 +19,12 @@ const SecondRequests = function() {
                 }
             ])
             .then(function (user) {
-                console.log(user.search, user.term);
-                if (user.search === 'show') {
-                    queryTVMaze.findShow(user.term);
+                //console.log(user.search, user.term);
+                if (user.search === 'Show') {
+                    queryAPI.findShow(user.term);
+                } else {
+                    queryAPI.findActor(user.term);
                 }
-                queryTVMaze.findActor(user.term);
             });
     }
 };
