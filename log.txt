@@ -1,0 +1,8 @@
+
+Actor/Actress: jennifer aniston
+
+{"name":"Jennifer Aniston","gender":"Female","birtday":"February-11-1969","country":"United States","url":"http://www.tvmaze.com/people/24483/jennifer-aniston"}
+
+Show: Daredevil
+
+{"name":"Marvel's Daredevil","genres":"Drama, Action, Crime","network":"Netflix","rating":8.4,"premiered":"April-10-2015","summary":"<p>Matt Murdock, a Marvel Comics hero who's a lawyer by day but fights the bad guys at night to avenge the murder of his father, a boxer. But what sets Matt apart from most superheroes isn't his back story it's his handicap. Matt is blind, the result of a childhood accident that may have removed his ability to see but gifted him with heightened senses of touch, taste, hearing and smell.</p>"}
