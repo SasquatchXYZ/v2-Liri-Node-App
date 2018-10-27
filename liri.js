@@ -39,7 +39,7 @@ inquirer
 function sortRequest(userChoice) {
     switch (userChoice) {
         case "Concert":
-            secondRequestConcert();
+            secondRequest.concert();
             break;
         case "Song":
             secondRequestSong();
@@ -58,7 +58,7 @@ function sortRequest(userChoice) {
 }
 
 // Secondary Question Functions ========================================================================================
-function secondRequestConcert() {
+/*function secondRequestConcert() {
     inquirer
         .prompt([
             {
@@ -73,7 +73,7 @@ function secondRequestConcert() {
             appendLog(`Band: ${user.artist}`);
         });
 
-}
+}*/
 
 function secondRequestSong() {
     inquirer
@@ -174,7 +174,7 @@ function checkRandom() {
 }
 
 // Query API Functions =================================================================================================
-function queryBandsInTown(userRequest) {
+/*function queryBandsInTown(userRequest) {
     let band = userRequest.split(" ").join("%20");
     let queryURL = `https://rest.bandsintown.com/artists/${band}/events?app_id=${bandsAPIkey}`;
 
@@ -202,7 +202,7 @@ function queryBandsInTown(userRequest) {
         }
     })
 
-    /*        bandsintown
+    /!*        bandsintown
                 .getArtistEventList(userRequest)
                 .then(function(events) {
                    console.log(events.length);
@@ -219,8 +219,8 @@ function queryBandsInTown(userRequest) {
 
                        appendLog(JSON.stringify(concert));
                    })
-                });*/
-}
+                });*!/
+}*/
 
 function querySpotify(userRequest) {
     spotify.search({type: 'track', query: `${userRequest}`, limit: 5}, function (error, data) {

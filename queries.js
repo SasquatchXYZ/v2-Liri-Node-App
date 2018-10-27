@@ -1,7 +1,48 @@
+require("dotenv").config();
+
+const keys = require("./keys");
 const request = require(`request`);
 const moment = require(`moment`);
+const DataLogger = require('./datalogger');
+const appendLog = new DataLogger();
+
+const bandsintown = require("bandsintown")(keys.bandsKey);
+const Spotify = require("node-spotify-api");
+const omdbAPI = require("omdb-client");
+
+const bandsAPIkey = keys.bandsKey;
+const spotify = new Spotify(keys.spotify);
+const omdbAPIkey = keys.omdbKey;
 
 const QueryAPI = function () {
+    this.findConcert = function(userRequest) {
+        let band = userRequest.split(" ").join("%20");
+        let queryURL = `https://rest.bandsintown.com/artists/${band}/events?app_id=${bandsAPIkey}`;
+
+        request(queryURL, function (error, response, data) {
+            if (!error && response.statusCode === 200) {
+                if (data.length === 3) {
+                    console.log("There are no upcoming shows for this artist.");
+                    appendLog.logdata("There are no upcoming shows for this artist.");
+                } else {
+                    console.log(JSON.parse(data).length);
+                    let results = JSON.parse(data);
+                    results.forEach(function (events) {
+                        let concerts = {};
+                        concerts.venue = events.venue.name;
+                        concerts.location = `${events.venue.city} ${events.venue.region}, ${events.venue.country}`;
+                        concerts.date = moment(events.datetime).format("MM/DD/YYYY");
+
+                        console.log("-----------------------------------------------------------");
+                        console.log(concerts);
+
+                        appendLog.logdata(JSON.stringify(concerts));
+
+                    })
+                }
+            }
+        })
+    };
     this.findShow = function (userSearch) {
         console.log(userSearch);
 
@@ -25,6 +66,7 @@ const QueryAPI = function () {
                 showInfo.summary = show.summary;
 
                 console.log(showInfo);
+                appendLog.logdata(JSON.stringify(showInfo));
 
             }
         })
@@ -45,6 +87,7 @@ const QueryAPI = function () {
                 actorInfo.url = actor.url;
 
                 console.log(actorInfo);
+                appendLog.logdata(JSON.stringify(actorInfo));
 
             }
         })
