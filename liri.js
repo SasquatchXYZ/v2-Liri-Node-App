@@ -1,25 +1,10 @@
 require("dotenv").config();
 
-const keys = require("./keys");
 const fs = require("fs");
 const inquirer = require("inquirer");
-const request = require("request");
-const moment = require("moment");
 const DataLogger = require('./datalogger');
 const appendLog = new DataLogger();
 
-const bandsintown = require("bandsintown")(keys.bandsKey);
-const Spotify = require("node-spotify-api");
-const omdbAPI = require("omdb-client");
-
-
-//const bandsAPIkey = keys.bandsKey;
-const spotify = new Spotify(keys.spotify);
-const omdbAPIkey = keys.omdbKey;
-
-// const TV = require(`./tv`);
-// const TVMaze = require(`./queries.js`);
-// const queryTVMaze = new TVMaze();
 const SecondRequest = require(`./secondRequests`);
 let secondRequest = new SecondRequest();
 
@@ -46,7 +31,7 @@ function sortRequest(userChoice) {
             secondRequest.song();
             break;
         case "Movie":
-            secondRequestMovie();
+            secondRequest.movie();
             break;
         case 'TV':
             secondRequest.tvShow();
@@ -75,7 +60,7 @@ function checkRandom() {
         let concertCommandsArray = ["concert-this", "concert", "band", "artist"];
         let songCommandsArray = ["spotify-this-song", "song", "track", "radio"];
         let movieCommandsArray = ["movie-this", "movie", "film", "documentary", "picture", "motion picture"];
-
+        let tvCommandsArray = ['show-this', 'actor-this', 'show', 'series','actor','him','her'];
         appendLog(`random.txt says: "${randomArray}"`);
 
         if (randomArray.length === 1) {
@@ -85,15 +70,18 @@ function checkRandom() {
                 sortRequest("Song");
             } else if (movieCommandsArray.includes(command)) {
                 sortRequest("Movie");
-            } else {
+            } else if (tvCommandsArray.includes(command)) {
+                sortRequest('TV')
+            }
+         else {
                 console.log("Check your random.txt, something's missing...");
                 appendLog("Uh, we had a slight weapons malfunction, but uh... everything's perfectly all right now. We're fine. We're all fine here now, thank you. How are you?");
             }
         } else if (randomArray.length === 2) {
             if (concertCommandsArray.includes(command)) {
-                queryBandsInTown(parameter);
+                queryAPI.findConcert(parameter);
             } else if (songCommandsArray.includes(command)) {
-                querySpotify(parameter);
+                query.song(parameter);
             } else if (movieCommandsArray.includes(command)) {
                 queryOMDB(parameter);
             }

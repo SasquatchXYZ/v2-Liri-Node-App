@@ -260,3 +260,87 @@ Band: falling in reverse
 {"venue":"El Corazón","location":"Seattle WA, United States","date":"11/24/2018"}
 
 {"venue":"The Teragram Ballroom","location":"Los Angeles CA, United States","date":"11/27/2018"}
+
+Show: friends
+
+{"name":"Friends","genres":"Comedy, Romance","network":"NBC","rating":8.8,"premiered":"September-22-1994","summary":"<p>Six young (20-something) people from New York City (Manhattan), on their own and struggling to survive in the real world, find the companionship, comfort and support they get from each other to be the perfect antidote to the pressures of life.</p><p>This average group of buddies goes through massive mayhem, family trouble, past and future romances, fights, laughs, tears and surprises as they learn what it really means to be a friend.</p>"}
+
+Band: mayday parade
+
+{"venue":"The Pageant","location":"St. Louis MO, United States","date":"10/28/2018"}
+
+{"venue":"First Avenue","location":"Minneapolis MN, United States","date":"10/30/2018"}
+
+{"venue":"Bogart's","location":"Cincinnati OH, United States","date":"11/01/2018"}
+
+{"venue":"Royal Oak Theatre","location":"Royal Oak MI, United States","date":"11/02/2018"}
+
+{"venue":"Agora Theatre","location":"Cleveland OH, United States","date":"11/03/2018"}
+
+{"venue":"Newport Music Hall","location":"Columbus OH, United States","date":"11/04/2018"}
+
+{"venue":"Stage AE","location":"Pittsburgh PA, United States","date":"11/06/2018"}
+
+{"venue":"Phoenix Concert Theatre","location":"Toronto , Canada","date":"11/07/2018"}
+
+{"venue":"Town Ballroom","location":"Buffalo NY, United States","date":"11/08/2018"}
+
+{"venue":"Starland Ballroom","location":"Sayreville NJ, United States","date":"11/09/2018"}
+
+{"venue":"Playstation Theater","location":"New York NY, United States","date":"11/13/2018"}
+
+{"venue":"The Fillmore Philadelphia","location":"Philadelphia PA, United States","date":"11/14/2018"}
+
+{"venue":"House of Blues ","location":"Boston MA, United States","date":"11/10/2018"}
+
+{"venue":"Fillmore Silver Spring","location":"Silver Spring MD, United States","date":"11/15/2018"}
+
+{"venue":"The Fillmore","location":"Charlotte NC, United States","date":"11/16/2018"}
+
+{"venue":"Masquerade","location":"Atlanta GA, United States","date":"11/17/2018"}
+
+{"venue":"Marathon Music Works ","location":"Nashville TN, United States","date":"11/18/2018"}
+
+{"venue":"Mavericks ","location":"Jacksonville FL, United States","date":"11/20/2018"}
+
+{"venue":"The Ritz Ybor","location":"Tampa FL, United States","date":"11/21/2018"}
+
+{"venue":"House of Blues ","location":"Lake Buena Vista FL, United States","date":"11/23/2018"}
+
+{"venue":"Revolution Live","location":"Fort Lauderdale FL, United States","date":"11/24/2018"}
+
+{"venue":"Powerstation","location":"Auckland , New Zealand","date":"12/06/2018"}
+
+{"venue":"Showgrounds","location":"Melbourne , Australia","date":"12/07/2018"}
+
+{"venue":"Paraatta Park","location":"Sydney , Australia","date":"12/08/2018"}
+
+{"venue":"Showgrounds","location":"Brisbane , Australia","date":"12/09/2018"}
+
+{"venue":"The Gov","location":"Hindmarsh , Australia","date":"12/12/2018"}
+
+{"venue":"Capitol","location":"Perth , Australia","date":"12/13/2018"}
+
+{"venue":"Phoenix Civic Space Park","location":"Phoenix AZ, United States","date":"01/19/2019"}
+
+{"venue":"O2 Academy Glasgow","location":"Glasgow City , United Kingdom","date":"02/16/2019"}
+
+{"venue":"Manchester Academy School","location":"Greater Manchester , United Kingdom","date":"02/17/2019"}
+
+{"venue":"O2 Academy Birmingham","location":"West Midlands , United Kingdom","date":"02/18/2019"}
+
+{"venue":"O2 Academy","location":"West Yorkshire , United Kingdom","date":"02/20/2019"}
+
+{"venue":"Rock City","location":"Nottinghamshire , United Kingdom","date":"02/21/2019"}
+
+{"venue":"O2 Academy","location":"City Of Bristol , United Kingdom","date":"02/22/2019"}
+
+{"venue":"Troxy","location":"Greater London , United Kingdom","date":"02/23/2019"}
+
+{"venue":"Live Music Hall","location":"Köln , Germany","date":"02/25/2019"}
+
+{"venue":"Melkweg","location":"Amsterdam , Netherlands","date":"02/26/2019"}
+
+{"venue":"Knust","location":"Hamburg , Germany","date":"02/27/2019"}
+
+{"venue":"Backstage Concerts GmbH","location":"München , Germany","date":"02/28/2019"}
