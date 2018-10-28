@@ -6,7 +6,6 @@ const moment = require(`moment`);
 const DataLogger = require('./datalogger');
 const appendLog = new DataLogger();
 
-const bandsintown = require("bandsintown")(keys.bandsKey);
 const Spotify = require("node-spotify-api");
 const omdbAPI = require("omdb-client");
 
@@ -15,7 +14,7 @@ const spotify = new Spotify(keys.spotify);
 const omdbAPIkey = keys.omdbKey;
 
 const QueryAPI = function () {
-    this.findConcert = function(userRequest) {
+    this.findConcert = function (userRequest) {
         let band = userRequest.split(" ").join("%20");
         let queryURL = `https://rest.bandsintown.com/artists/${band}/events?app_id=${bandsAPIkey}`;
 
@@ -43,11 +42,65 @@ const QueryAPI = function () {
             }
         })
     };
+
+    this.findSong = function (userRequest) {
+        spotify.search({type: 'track', query: `${userRequest}`, limit: 5}, function (error, data) {
+            if (error) {
+                return console.log(`Error Occurred: ${error}`);
+            }
+            //console.log(data.tracks.items);
+            let songsArray = data.tracks.items;
+            songsArray.forEach(function (song) {
+                let track = {};
+                track.artist = song.artists[0].name;
+                track.song = song.name;
+                track.album = song.album.name;
+                track.preview = song.preview_url;
+
+                console.log("===========================================================");
+                console.log(track);
+
+                appendLog.logdata(JSON.stringify(track));
+            })
+        })
+    };
+
+    this.findMovie = function(userRequest) {
+        let params = {
+            apiKey: omdbAPIkey,
+            plot: 'full',
+            title: userRequest
+        };
+
+        omdbAPI.get(params, function (error, movie) {
+            if (error) {
+                console.log(error);
+            }
+            // console.log(movie);
+
+            let movieData = {};
+            movieData.title = movie.Title;
+            movieData.released = movie.Released;
+            movieData.rated = movie.Rated;
+            movieData.imdbRating = movie.Ratings[0].Value;
+            movieData.rottenTomatoesRating = movie.Ratings[1].Value;
+            movieData.country = movie.Country;
+            movieData.language = movie.Language;
+            movieData.plot = movie.Plot;
+            movieData.actors = movie.Actors;
+            movieData.runtime = movie.Runtime;
+
+            console.log(movieData);
+
+            appendLog(JSON.stringify(movieData));
+        })
+    };
+
     this.findShow = function (userSearch) {
         console.log(userSearch);
 
         let showURL = `http://api.tvmaze.com/singlesearch/shows?q=${userSearch}`;
-        request(showURL, function(error, response, data) {
+        request(showURL, function (error, response, data) {
 
             if (!error && response.statusCode === 200) {
                 let show = JSON.parse(data);
@@ -75,7 +128,7 @@ const QueryAPI = function () {
     this.findActor = function (userSearch) {
         console.log(userSearch);
         let actorURL = `http://api.tvmaze.com/search/people?q=${userSearch}`;
-        request(actorURL, function(error, response, data) {
+        request(actorURL, function (error, response, data) {
             if (!error && response.statusCode === 200) {
                 let actor = JSON.parse(data)[0].person;
                 //console.log(actor);

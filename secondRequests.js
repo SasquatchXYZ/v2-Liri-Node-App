@@ -22,7 +22,39 @@ const SecondRequests = function () {
                 appendLog.logdata(`Band: ${user.artist}`);
             });
     };
-    this.tvshow = function () {
+
+    this.song = function() {
+        inquirer
+            .prompt([
+                {
+                    type: 'input',
+                    name: 'songTitle',
+                    message: 'What song shall I find?',
+                }
+            ])
+            .then(function (user) {
+                console.log(user.songTitle);
+                queryAPI.findSong(user.songTitle);
+                appendLog.logdata(`Song: ${user.songTitle}`);
+            });
+    };
+
+    this.movie = function() {
+        inquirer
+            .prompt([
+                {
+                    type: 'input',
+                    name: 'movieTitle',
+                    message: 'What movie should I find?'
+                }
+            ])
+            .then(function (user) {
+                console.log(user.movieTitle);
+                queryAPI.findMovie(user.movieTitle);
+                appendLog.logdata(`Movie: ${user.movieTitle}`);
+            });
+    }
+    this.tvShow = function () {
         inquirer
             .prompt([
                 {

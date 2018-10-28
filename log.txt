@@ -6,3 +6,257 @@ Actor/Actress: jennifer aniston
 Show: Daredevil
 
 {"name":"Marvel's Daredevil","genres":"Drama, Action, Crime","network":"Netflix","rating":8.4,"premiered":"April-10-2015","summary":"<p>Matt Murdock, a Marvel Comics hero who's a lawyer by day but fights the bad guys at night to avenge the murder of his father, a boxer. But what sets Matt apart from most superheroes isn't his back story it's his handicap. Matt is blind, the result of a childhood accident that may have removed his ability to see but gifted him with heightened senses of touch, taste, hearing and smell.</p>"}
+
+Band: good charlotte
+
+{"venue":"REBEL","location":"Toronto , Canada","date":"10/25/2018"}
+
+{"venue":"MTELUS","location":"Montreal , Canada","date":"10/26/2018"}
+
+{"venue":"Agora Theater & Ballroom","location":"Cleveland OH, United States","date":"10/28/2018"}
+
+{"venue":"S.I. Hall - NYS Fairgrounds","location":"Syracuse NY, United States","date":"10/27/2018"}
+
+{"venue":"Terminal 5","location":"New York NY, United States","date":"10/29/2018"}
+
+{"venue":"The Fillmore Detroit","location":"Detroit MI, United States","date":"11/01/2018"}
+
+{"venue":"Express Live!","location":"Columbus OH, United States","date":"11/02/2018"}
+
+{"venue":"20 Monroe Live","location":"Grand Rapids MI, United States","date":"11/03/2018"}
+
+{"venue":"Riviera Theatre","location":"Chicago IL, United States","date":"11/04/2018"}
+
+{"venue":"Skyway Theater","location":"Minneapolis MN, United States","date":"11/06/2018"}
+
+{"venue":"Aztec Theatre","location":"San Antonio TX, United States","date":"11/10/2018"}
+
+{"venue":"House of Blues Dallas","location":"Dallas TX, United States","date":"11/11/2018"}
+
+{"venue":"House of Blues Houston","location":"Houston TX, United States","date":"11/12/2018"}
+
+{"venue":"Ogden Theatre","location":"Denver CO, United States","date":"11/14/2018"}
+
+{"venue":"Rockwell At The Complex","location":"Salt Lake City Utah, United States","date":"11/15/2018"}
+
+{"venue":"Revolution Concert House","location":"Garden City ID, United States","date":"11/16/2018"}
+
+{"venue":"Roseland Theater","location":"Portland OR, United States","date":"11/17/2018"}
+
+{"venue":"Showbox SoDo","location":"Seattle WA, United States","date":"11/18/2018"}
+
+{"venue":"The Warfield","location":"San Francisco CA, United States","date":"11/20/2018"}
+
+{"venue":"Hollywood Palladium","location":"Los Angeles CA, United States","date":"11/21/2018"}
+
+{"venue":"The Van Buren","location":"Phoenix AZ, United States","date":"11/23/2018"}
+
+{"venue":"Pearl Concert Theater at Palms Casino Resort","location":"Las Vegas NV, United States","date":"11/24/2018"}
+
+{"venue":"Sunshine Theater","location":"Albuquerque NM, United States","date":"11/26/2018"}
+
+{"venue":"Diamond Ballroom","location":"Oklahoma City OK, United States","date":"11/27/2018"}
+
+{"venue":"Arvest Bank Theatre At the Midland","location":"Kansas City MO, United States","date":"11/28/2018"}
+
+{"venue":"Planet.tt Bank Austria Halle Gasometer","location":"Wien , Austria","date":"01/31/2019"}
+
+{"venue":"Komplex 457","location":"Zurich , Switzerland","date":"02/01/2019"}
+
+{"venue":"Alcatraz","location":"Milan , Italy","date":"02/03/2019"}
+
+{"venue":"Zenith, die Kulturhalle","location":"Munchen , Germany","date":"02/04/2019"}
+
+{"venue":"Palladium","location":"Koln , Germany","date":"02/05/2019"}
+
+{"venue":"Ancienne Belgique","location":"Brussels , Belgium","date":"02/07/2019"}
+
+{"venue":"Zenith Paris - La Villette","location":"Paris , France","date":"02/08/2019"}
+
+{"venue":"Stadthalle Offenbach","location":"Offenbach Am Main , Germany","date":"02/09/2019"}
+
+{"venue":"Forum Karlin","location":"Prague , Czech Republic","date":"02/11/2019"}
+
+{"venue":"Klub Stodoła","location":"Warsaw , Poland","date":"02/12/2019"}
+
+{"venue":"Columbiahalle","location":"Berlin , Germany","date":"02/13/2019"}
+
+{"venue":"Rockhal","location":"Roeser , Luxembourg","date":"02/15/2019"}
+
+{"venue":"sporthalle hamburg","location":"Hamburg-nord , Germany","date":"02/16/2019"}
+
+{"venue":"Alexandra Palace","location":"London , United Kingdom","date":"02/20/2019"}
+
+{"venue":"Poppodium 013","location":"Tilburg , Netherlands","date":"02/18/2019"}
+
+Band: falling in reverse
+
+{"venue":"The Kelsey Theater ","location":"West Palm Beach FL, United States","date":"10/29/2018"}
+
+{"venue":"The Social","location":"Orlando FL, United States","date":"11/01/2018"}
+
+{"venue":"The Masquerade (Hell)","location":"Atlanta GA, United States","date":"11/02/2018"}
+
+{"venue":"Arizona Pete's","location":"Greensboro NC, United States","date":"11/04/2018"}
+
+{"venue":"Ottobar","location":"Baltimore MD, United States","date":"11/06/2018"}
+
+{"venue":"Palladium","location":"Worcester MA, United States","date":"11/07/2018"}
+
+{"venue":"German House","location":"Rochester NY, United States","date":"11/09/2018"}
+
+{"venue":"Mr. Smalls Theatre","location":"Millvale PA, United States","date":"11/11/2018"}
+
+{"venue":"Grog Shop","location":"Cleveland Heights OH, United States","date":"11/12/2018"}
+
+{"venue":"Bottom Lounge","location":"Chicago IL, United States","date":"11/14/2018"}
+
+{"venue":"Studio B","location":"Minneapolis MN, United States","date":"11/15/2018"}
+
+{"venue":"Fubar","location":"St. Louis MO, United States","date":"11/16/2018"}
+
+{"venue":"Granada Theater","location":"Lawrence KS, United States","date":"11/18/2018"}
+
+{"venue":"Moon Room","location":"Denver CO, United States","date":"11/19/2018"}
+
+{"venue":"The Complex","location":"Salt Lake City UT, United States","date":"11/20/2018"}
+
+{"venue":"Hawthorne","location":"Portland OR, United States","date":"11/23/2018"}
+
+{"venue":"El Corazón","location":"Seattle WA, United States","date":"11/24/2018"}
+
+{"venue":"The Teragram Ballroom","location":"Los Angeles CA, United States","date":"11/27/2018"}
+
+Song: feel
+
+{"artist":"Portugal. The Man","song":"Feel It Still","album":"Woodstock","preview":"https://p.scdn.co/mp3-preview/c32d9479367a99fcf5f881e23e1381e6f87214e9?cid=b6f059acda4a45c59d10e0d802be10f1"}
+
+{"artist":"Gorillaz","song":"Feel Good Inc","album":"Demon Days","preview":"https://p.scdn.co/mp3-preview/7388c425022ced92b1caa7f73bcf0cb3080aee47?cid=b6f059acda4a45c59d10e0d802be10f1"}
+
+{"artist":"MGMT","song":"Electric Feel","album":"Oracular Spectacular","preview":"https://p.scdn.co/mp3-preview/dba49cb2290710a45cba747b0a6cf3f9c869ecfe?cid=b6f059acda4a45c59d10e0d802be10f1"}
+
+{"artist":"Drake","song":"That’s How You Feel","album":"Scorpion","preview":null}
+
+{"artist":"The Weeknd","song":"Can't Feel My Face","album":"Beauty Behind The Madness","preview":null}
+
+Band: panic at the disco
+
+{"venue":"Corona Capital 2018","location":"Mexico City , Mexico","date":"11/17/2018"}
+
+{"venue":"KeyBank Center","location":"Buffalo NY, United States","date":"01/10/2019"}
+
+{"venue":"Place Bell","location":"Laval , Canada","date":"01/12/2019"}
+
+{"venue":"SNHU Arena","location":"Manchester NH, United States","date":"01/13/2019"}
+
+{"venue":"Times Union Center","location":"Albany NY, United States","date":"01/15/2019"}
+
+{"venue":"Prudential Center","location":"Newark NJ, United States","date":"01/18/2019"}
+
+{"venue":"Barclays Center","location":"Brooklyn NY, United States","date":"01/16/2019"}
+
+{"venue":"Capital One Arena","location":"Washington DC, United States","date":"01/20/2019"}
+
+{"venue":"Dunkin' Donuts Center","location":"Providence RI, United States","date":"01/19/2019"}
+
+{"venue":"Spectrum Center","location":"Charlotte NC, United States","date":"01/22/2019"}
+
+{"venue":"Bridgestone Arena","location":"Nashville TN, United States","date":"01/25/2019"}
+
+{"venue":"John Paul Jones Arena","location":"Charlottesville VA, United States","date":"01/23/2019"}
+
+{"venue":"Fiserv Forum","location":"Milwaukee WI, United States","date":"01/27/2019"}
+
+{"venue":"The Van Andel Arena","location":"Grand Rapids MI, United States","date":"01/29/2019"}
+
+{"venue":"U.S. Bank Arena","location":"Cincinnati OH, United States","date":"01/26/2019"}
+
+{"venue":"Quicken Loans Arena","location":"Cleveland OH, United States","date":"01/30/2019"}
+
+{"venue":"Sprint Center","location":"Kansas City MO, United States","date":"02/02/2019"}
+
+{"venue":"Enterprise Center","location":"Saint Louis MO, United States","date":"02/05/2019"}
+
+{"venue":"Allstate Arena","location":"Rosemont IL, United States","date":"02/04/2019"}
+
+{"venue":"CenturyLink Center","location":"Omaha NE, United States","date":"02/01/2019"}
+
+{"venue":"FedExForum","location":"Memphis TN, United States","date":"02/06/2019"}
+
+{"venue":"Frank Erwin Center","location":"Austin TX, United States","date":"02/08/2019"}
+
+{"venue":"Smoothie King Center","location":"New Orleans LA, United States","date":"02/09/2019"}
+
+{"venue":"Tingley Coliseum","location":"Albuquerque NM, United States","date":"02/12/2019"}
+
+{"venue":"Honda Center","location":"Anaheim CA, United States","date":"02/14/2019"}
+
+{"venue":"The Forum","location":"Inglewood CA, United States","date":"02/15/2019"}
+
+{"venue":"ORACLE Arena","location":"Oakland CA, United States","date":"02/19/2019"}
+
+{"venue":"Valley View Casino Center","location":"San Diego CA, United States","date":"02/16/2019"}
+
+{"venue":"Golden1 Center","location":"Sacramento CA, United States","date":"02/20/2019"}
+
+{"venue":"Stadthalle","location":"Offenbach , Germany","date":"03/14/2019"}
+
+{"venue":"Columbiahalle ","location":"Berlin , Germany","date":"03/15/2019"}
+
+{"venue":"Mitsubishi Electric Halle","location":"Düsseldorf , Germany","date":"03/16/2019"}
+
+{"venue":"AFAS Live","location":"Amsterdam , Netherlands","date":"03/18/2019"}
+
+{"venue":"Zenith","location":"Paris , France","date":"03/19/2019"}
+
+{"venue":"SSE Hydro","location":"Glasgow , United Kingdom","date":"03/24/2019"}
+
+{"venue":"Lotto Arena","location":"Antwerp , Belgium","date":"03/21/2019"}
+
+{"venue":"Motorpoint Arena","location":"Cardiff , United Kingdom","date":"03/25/2019"}
+
+{"venue":"Arena Birmingham","location":"Birmingham , United Kingdom","date":"03/26/2019"}
+
+{"venue":"The O2","location":"London , United Kingdom","date":"03/29/2019"}
+
+{"venue":"Manchester Arena","location":"Manchester , United Kingdom","date":"03/30/2019"}
+
+{"venue":"The O2","location":"London , United Kingdom","date":"03/28/2019"}
+
+Band: falling in reverse
+
+{"venue":"The Kelsey Theater ","location":"West Palm Beach FL, United States","date":"10/29/2018"}
+
+{"venue":"The Masquerade (Hell)","location":"Atlanta GA, United States","date":"11/02/2018"}
+
+{"venue":"The Social","location":"Orlando FL, United States","date":"11/01/2018"}
+
+{"venue":"Arizona Pete's","location":"Greensboro NC, United States","date":"11/04/2018"}
+
+{"venue":"Ottobar","location":"Baltimore MD, United States","date":"11/06/2018"}
+
+{"venue":"Palladium","location":"Worcester MA, United States","date":"11/07/2018"}
+
+{"venue":"German House","location":"Rochester NY, United States","date":"11/09/2018"}
+
+{"venue":"Mr. Smalls Theatre","location":"Millvale PA, United States","date":"11/11/2018"}
+
+{"venue":"Grog Shop","location":"Cleveland Heights OH, United States","date":"11/12/2018"}
+
+{"venue":"Bottom Lounge","location":"Chicago IL, United States","date":"11/14/2018"}
+
+{"venue":"Studio B","location":"Minneapolis MN, United States","date":"11/15/2018"}
+
+{"venue":"Fubar","location":"St. Louis MO, United States","date":"11/16/2018"}
+
+{"venue":"Granada Theater","location":"Lawrence KS, United States","date":"11/18/2018"}
+
+{"venue":"Moon Room","location":"Denver CO, United States","date":"11/19/2018"}
+
+{"venue":"The Complex","location":"Salt Lake City UT, United States","date":"11/20/2018"}
+
+{"venue":"Hawthorne","location":"Portland OR, United States","date":"11/23/2018"}
+
+{"venue":"El Corazón","location":"Seattle WA, United States","date":"11/24/2018"}
+
+{"venue":"The Teragram Ballroom","location":"Los Angeles CA, United States","date":"11/27/2018"}
