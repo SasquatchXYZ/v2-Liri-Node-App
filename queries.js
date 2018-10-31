@@ -35,7 +35,7 @@ const QueryAPI = function () {
                         console.log("-----------------------------------------------------------");
                         console.log(concerts);
 
-                        appendLog.logdata(JSON.stringify(concerts));
+                        appendLog.logdata(JSON.stringify(concerts, null, 2));
 
                     })
                 }
@@ -57,15 +57,15 @@ const QueryAPI = function () {
                 track.album = song.album.name;
                 track.preview = song.preview_url;
 
-                console.log("===========================================================");
+                console.log("-----------------------------------------------------------------");
                 console.log(track);
 
-                appendLog.logdata(JSON.stringify(track));
+                appendLog.logdata(JSON.stringify(track, null, 2));
             })
         })
     };
 
-    this.findMovie = function(userRequest) {
+    this.findMovie = function (userRequest) {
         let params = {
             apiKey: omdbAPIkey,
             plot: 'full',
@@ -92,7 +92,7 @@ const QueryAPI = function () {
 
             console.log(movieData);
 
-            appendLog(JSON.stringify(movieData));
+            appendLog.logdata(JSON.stringify(movieData, null, 2));
         })
     };
 
@@ -119,7 +119,7 @@ const QueryAPI = function () {
                 showInfo.summary = show.summary;
 
                 console.log(showInfo);
-                appendLog.logdata(JSON.stringify(showInfo));
+                appendLog.logdata(JSON.stringify(showInfo, null, 2));
 
             }
         })
@@ -140,7 +140,7 @@ const QueryAPI = function () {
                 actorInfo.url = actor.url;
 
                 console.log(actorInfo);
-                appendLog.logdata(JSON.stringify(actorInfo));
+                appendLog.logdata(JSON.stringify(actorInfo, null, 2));
 
             }
         })

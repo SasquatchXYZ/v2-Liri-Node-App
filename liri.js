@@ -41,7 +41,7 @@ function sortRequest(userChoice) {
             break;
         case "You Pick LIRI":
             checkRandom();
-            appendLog.logdata("Dealer's Choice");
+            appendLog.logdata("====================> Dealer's Choice <====================");
             break;
     }
 }
@@ -65,7 +65,7 @@ function checkRandom() {
         let movieCommandsArray = ["movie-this", "movie", "film", "documentary", "picture", "motion picture"];
         let tvCommandsArray = ['show-this', 'show', 'series'];
         let actorCommandsArray = ['actor-this', 'actor', 'him', 'her'];
-        appendLog(`random.txt says: "${randomArray}"`);
+        appendLog.logdata(`random.txt says: "${randomArray}"`);
 
         if (randomArray.length === 1) {
             if (concertCommandsArray.includes(command)) {
@@ -77,9 +77,9 @@ function checkRandom() {
             } else if (tvCommandsArray.includes(command) || actorCommandsArray.includes(command)) {
                 sortRequest('TV')
             }
-         else {
+            else {
                 console.log("Check your random.txt, something's missing...");
-                appendLog("Uh, we had a slight weapons malfunction, but uh... everything's perfectly all right now. We're fine. We're all fine here now, thank you. How are you?");
+                appendLog.logdata("Uh, we had a slight weapons malfunction, but uh... everything's perfectly all right now. We're fine. We're all fine here now, thank you. How are you?");
             }
         } else if (randomArray.length === 2) {
             //secondRequest.random(command, parameter);

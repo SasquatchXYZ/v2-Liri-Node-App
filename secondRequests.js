@@ -19,11 +19,11 @@ const SecondRequests = function () {
             .then(function (user) {
                 console.log(user.artist);
                 queryAPI.findConcert(user.artist);
-                appendLog.logdata(`Band: ${user.artist}`);
+                appendLog.logdata(`====================> Band: ${user.artist} <====================`);
             });
     };
 
-    this.song = function() {
+    this.song = function () {
         inquirer
             .prompt([
                 {
@@ -35,11 +35,11 @@ const SecondRequests = function () {
             .then(function (user) {
                 console.log(user.songTitle);
                 queryAPI.findSong(user.songTitle);
-                appendLog.logdata(`Song: ${user.songTitle}`);
+                appendLog.logdata(`====================> Song: ${user.songTitle} <====================`);
             });
     };
 
-    this.movie = function() {
+    this.movie = function () {
         inquirer
             .prompt([
                 {
@@ -51,7 +51,7 @@ const SecondRequests = function () {
             .then(function (user) {
                 console.log(user.movieTitle);
                 queryAPI.findMovie(user.movieTitle);
-                appendLog.logdata(`Movie: ${user.movieTitle}`);
+                appendLog.logdata(`====================> Movie: ${user.movieTitle} <====================`);
             });
     };
 
@@ -73,22 +73,12 @@ const SecondRequests = function () {
                 //console.log(user.search, user.term);
                 if (user.search === 'Show') {
                     queryAPI.findShow(user.term);
-                    appendLog.logdata(`Show: ${user.term}`);
+                    appendLog.logdata(`====================> TV Show: ${user.term} <====================`);
                 } else {
                     queryAPI.findActor(user.term);
-                    appendLog.logdata(`Actor/Actress: ${user.term}`);
+                    appendLog.logdata(`====================> Actor/Actress: ${user.term} <====================`);
                 }
             });
-    }
-
-    this.random = function(command, parameter) {
-        if (concertCommandsArray.includes(command)) {
-            queryAPI.findConcert(parameter);
-        } else if (songCommandsArray.includes(command)) {
-            query.song(parameter);
-        } else if (movieCommandsArray.includes(command)) {
-            queryOMDB(parameter);
-        }
     }
 };
 
