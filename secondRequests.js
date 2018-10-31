@@ -53,7 +53,8 @@ const SecondRequests = function () {
                 queryAPI.findMovie(user.movieTitle);
                 appendLog.logdata(`Movie: ${user.movieTitle}`);
             });
-    }
+    };
+
     this.tvShow = function () {
         inquirer
             .prompt([
@@ -78,6 +79,16 @@ const SecondRequests = function () {
                     appendLog.logdata(`Actor/Actress: ${user.term}`);
                 }
             });
+    }
+
+    this.random = function(command, parameter) {
+        if (concertCommandsArray.includes(command)) {
+            queryAPI.findConcert(parameter);
+        } else if (songCommandsArray.includes(command)) {
+            query.song(parameter);
+        } else if (movieCommandsArray.includes(command)) {
+            queryOMDB(parameter);
+        }
     }
 };
 

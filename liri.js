@@ -8,6 +8,9 @@ const appendLog = new DataLogger();
 const SecondRequest = require(`./secondRequests`);
 let secondRequest = new SecondRequest();
 
+const QueryAPI = require(`./queries.js`);
+const queryAPI = new QueryAPI();
+
 inquirer
     .prompt([
         {
@@ -60,7 +63,8 @@ function checkRandom() {
         let concertCommandsArray = ["concert-this", "concert", "band", "artist"];
         let songCommandsArray = ["spotify-this-song", "song", "track", "radio"];
         let movieCommandsArray = ["movie-this", "movie", "film", "documentary", "picture", "motion picture"];
-        let tvCommandsArray = ['show-this', 'actor-this', 'show', 'series','actor','him','her'];
+        let tvCommandsArray = ['show-this', 'show', 'series'];
+        let actorCommandsArray = ['actor-this', 'actor', 'him', 'her'];
         appendLog(`random.txt says: "${randomArray}"`);
 
         if (randomArray.length === 1) {
@@ -70,7 +74,7 @@ function checkRandom() {
                 sortRequest("Song");
             } else if (movieCommandsArray.includes(command)) {
                 sortRequest("Movie");
-            } else if (tvCommandsArray.includes(command)) {
+            } else if (tvCommandsArray.includes(command) || actorCommandsArray.includes(command)) {
                 sortRequest('TV')
             }
          else {
@@ -78,12 +82,17 @@ function checkRandom() {
                 appendLog("Uh, we had a slight weapons malfunction, but uh... everything's perfectly all right now. We're fine. We're all fine here now, thank you. How are you?");
             }
         } else if (randomArray.length === 2) {
+            //secondRequest.random(command, parameter);
             if (concertCommandsArray.includes(command)) {
                 queryAPI.findConcert(parameter);
             } else if (songCommandsArray.includes(command)) {
-                query.song(parameter);
+                queryAPI.findSong(parameter);
             } else if (movieCommandsArray.includes(command)) {
-                queryOMDB(parameter);
+                queryAPI.findMovie(parameter);
+            } else if (tvCommandsArray.includes(command)) {
+                queryAPI.findShow(parameter);
+            } else if (actorCommandsArray.includes(command)) {
+                queryAPI.findActor(parameter);
             }
         }
     })
